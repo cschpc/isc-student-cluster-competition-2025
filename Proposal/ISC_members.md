@@ -16,6 +16,7 @@
   - Email:
   - University/College/High School:
   - Department:
+  - Year of enrollment:
   - Age:
   - How will HPC help you in your academic career? List specific reasons for wanting to participate in the competition: 
   - List any HPC and/or computational science experience you have (e.g. working on a university cluster with X software):
