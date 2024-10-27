@@ -59,3 +59,16 @@
   4. I am interested in computational mathematics and numerical methods, f.e. solving ~100 problems in project Euler and doing other hobby projects in the same spirit.
 - Extra biography for the proposal (pick and mix): I was born in Salamanca, Spain. I moved to Finland on 2020 to study what I enjoy the most, luckily the full degree was available in English. Most of my university friends are somehow international, which has been culturally eye-opening. I learned some Finnish during these years. Some things I often enjoy are puzzles and games, but also playing the French horn and doing sports, mainly ice skating and tennis.
 
+# Timo Mäkelä
+  - Title: Mr.
+  - First Name: Timo
+  - Surname: Mäkelä
+  - Email: timo.v.makela@helsinki.fi
+  - University/College/High School: University of Helsinki
+  - Department: Department of Computer Science
+  - Year of enrollment: 2022
+  - Age: 23
+  - How will HPC help you in your academic career? List specific reasons for wanting to participate in the competition: I have a long-term goal of doing research and advancing the field of HPC. I find it interesting how AI workloads are becoming part of HPC and the merging of traditional HPC with the cloud.  I’m also interested in understanding how to run distributed AI algorithms effectively on a large-scale system. Another interest of mine is HPC from the system engineering side and understanding how HPC resources can be utilized optimally with recent developments in scheduling algorithms and job malleability for example. These are topics where knowledge of cluster environment and optimization techniques are important. The skills learned in the competition would accelerate my career as a future HPC professional and would also help me connect with like-minded HPC enthusiasts, vendors and leaders in the field which could lead to future research and industry opportunities.
+  - List any HPC and/or computational science experience you have (e.g. working on a university cluster with X software): I work as a teaching assistant for “Scientific computing II” course which is a course teaching scientific computing using Fortran, compiling and running applications and using the Linux command line. I have worked as a research assistant doing large scale data analysis with Python and MATLAB. On my free time I am passionate about learning GPU computing.
+  - Additional biography: I like to spend time in nature through hiking, trail running and snowboarding during the winter. I have a studied physics but decided to switch my major to computer science after becoming passionate about HPC. Im an avid reader of HPC news and like to stay up to date with developments and trends in the field. I enjoy playing the drums and producing dance music on my computer.
+
