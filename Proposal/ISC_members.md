@@ -97,16 +97,15 @@
 - Surname: Helin
 - Email: jens.johann.helin@gmail.com
 - University/College/High School: University of Helsinki
-- Department: Department of Computer Science
-    - Bachelor's Programme in Computer Science, Minoring in Statistics
+- Department: Department of Computer Science  
+  - Bachelor's Programme in Computer Science, Minoring in Statistics
 - Year of enrollment: 2023
 - Age: 25
 - How will HPC help you in your academic career? List specific reasons for wanting to participate in the competition:
-  * My primary interests are computer science, statistics, and computer networking & security. While studying these fields, particularly CS and statistics, I have run into HPC numerous times, for example in parallel computing, simulations, and data analysis. By attending the competition, I would like to learn more about HPC and its practical side to apply it in the future, whether for my studies, research, or work in these fields.
-  * I have never attended a competition like this as a participant, and the concept of solving problems together with a team of students with different backgrounds sounds both fun and like a great way to learn HPC.
-  * The competition will allow me to network with and learn from experts, peers, and teammates.
-- List any HPC and/or computational science experience you have (e.g. working on a university cluster with X software): 
-  * Programming skills in Python, R, C++, Bash scripting. Coursework in statistics and mathematical analysis.
-  * In my most recent internship as a teaching assistant developing a course, my most relevant tasks were file and image comparison (used for example numpy, OpenCV), running these comparisons in containers, parsing large data using Bash scripts and C++ to achieve a desired format, setting up an OpenSSH server on a virtual machine.
-
+  - My primary interests are computer science, statistics, and computer networking & security. While studying these fields, particularly CS and statistics, I have run into HPC numerous times, for example in parallel computing, simulations, and data analysis. By attending the competition, I would like to learn more about HPC and its practical side to apply it in the future, whether for my studies, research, or work in these fields.
+  - I have never attended a competition like this as a participant, and the concept of solving problems together with a team of students with different backgrounds sounds both fun and like a great way to learn HPC.
+  - The competition will allow me to network with and learn from experts, peers, and teammates.
+- List any HPC and/or computational science experience you have (e.g. working on a university cluster with X software):
+  - Programming skills in Python, R, C++, Bash scripting. Coursework in statistics and mathematical analysis.
+  - In my most recent internship as a teaching assistant developing a course, my most relevant tasks were file and image comparison (used for example numpy, OpenCV), running these comparisons in containers, parsing large data using Bash scripts and C++ to achieve a desired format, setting up an OpenSSH server on a virtual machine.
 - Additional biography: I started my bachelor's studies in computer science studies in 2023 after studying Automation Engineering for a couple of years, as I realised this was the field I was passionate about and wanted to learn more about and build my career in. I want to do my master's degree in either computer science or data science. In my free time, I enjoy reading classic literature, watching movies, and exploring new music. I also like running, working out, and occasionally going bouldering.
