@@ -72,3 +72,21 @@
   - List any HPC and/or computational science experience you have (e.g. working on a university cluster with X software): I work as a teaching assistant for “Scientific computing II” course which is a course teaching scientific computing using Fortran, compiling and running applications and using the Linux command line. I have worked as a research assistant doing large scale data analysis with Python and MATLAB. On my free time I am passionate about learning GPU computing.
   - Additional biography: I like to spend time in nature through hiking, trail running and snowboarding during the winter. I have a studied physics but decided to switch my major to computer science after becoming passionate about HPC. Im an avid reader of HPC news and like to stay up to date with developments and trends in the field. I enjoy playing the drums and producing dance music on my computer.
 
+# Trung Nguyen
+  - Title: Mr.
+  - First Name, Surname: Trung, Nguyen
+  - Email: trung.d.nguyen@helsinki.fi
+  - University/College/High School: University of Helsinki
+  - Department: Department of Physics
+  - Year of enrollment: 2024
+  - Age: 21
+  - How will HPC help you in your academic career? List specific reasons for wanting to participate in the competition:
+    1. HPC is a crucial part in my work, which relies heavily on fast and efficient simulations of complex physics systems. Thus, a good understaning of HPC is essential for any scientist in my field.
+    2. This is my first time joining a competition outside of my native country, hence it is both an oppoturnity and a challenge for me to push my limits and compete with other professionals in HPC.
+    3. This is an excellent event to meet and learn about the current developments of the HPC industry, which is beneficial for my future career and network.
+  - List any HPC and/or computational science experience you have (e.g. working on a university cluster with X software):
+    1. Research trainee at VTT Technical Research Centre of Finland: high-level programming (Python & MATLAB), FEM simulation (Abaqus & COMSOL), and data analysis (numpy, scipy, OpenCV, etc.).
+    2. Teaching assistant at Aalto University: courses on stochastic modelling (Python), machine learning (scikit-learn & Pytorch), optimization (Julia), and numerical methods in engineering (MATLAB).
+    3. Several projects which require running software on HPC systems: Puhti, Mahti and Allas at CSC, and Triton cluster at Aalto University.
+    4. Several courseworks in computational science: Scientific Computing, Deep Learning, Computational Models in Stochastics, Computational Inverse Problems, etc.
+  - Additional biography: I moved from Ho Chi Minh City, Vietnam to Finland in 2021 to pursue a degree in Computational Engineering at Aalto University. After my bachelor's studies, I reapplied and switched to University of Helsinki for a master's in computational physics, hence I'm one of the few physics students in the department with a background in engineering. During my free time, I enjoy reading historical documentaries (my favorites is Vietnam war), playing badminton, and trail running during the summer.
