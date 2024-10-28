@@ -109,3 +109,19 @@
   - Programming skills in Python, R, C++, Bash scripting. Coursework in statistics and mathematical analysis.
   - In my most recent internship as a teaching assistant developing a course, my most relevant tasks were file and image comparison (used for example numpy, OpenCV), running these comparisons in containers, parsing large data using Bash scripts and C++ to achieve a desired format, setting up an OpenSSH server on a virtual machine.
 - Additional biography: I started my bachelor's studies in computer science studies in 2023 after studying Automation Engineering for a couple of years, as I realised this was the field I was passionate about and wanted to learn more about and build my career in. I want to do my master's degree in either computer science or data science. In my free time, I enjoy reading classic literature, watching movies, and exploring new music. I also like running, working out, and occasionally going bouldering.
+
+# Henrietta Homm
+  - Title: Ms.
+  - First name: Henrietta
+  - Surname: Homm
+  - Email: henriettahomm@gmail.com
+  - University/College/High School: University of Helsinki
+  - Department: Department of Physics
+  - Year of enrollment: 2019
+  - Age: 24
+  - How will HPC help you in your academic career? List specific reasons for wanting to participate in the competition:
+    - I am a data science major specializing in machine learning and big data, and as such learning HPC plays a crucial part in my career aspirations. I wish to gain practical experience, which is often missing from university courses lacking the resources for hands-on computing, as well as network within the field. Additionally, I have never participated in any kind of hackathon, and this competition seems like a fun and productive kind of new experience. I value learning in diverse ways and aim to see and try as many new things as I can in order to broaden both my worldview and my skills. 
+  - List any HPC and/or computational science experience you have (e.g. working on a university cluster with X software):
+    - For the past few years, I have worked as a research assistant at Aalto University, studying computational materials science. In this work, I use CSC Puhti supercomputer to run ab-initio atomistic simulations using FHI-aims code and train various machine learning models on the computed data, with the aim of predicting the physical properties of atomistic structures. I am interested in continuing in computational research, and would greatly benefit from learning more about HPC. So far, I have mainly used these software packages as black boxes, without knowing what is going on under the surface. In any case, my work has given me have plenty of experience in computational materials science and scientific computing in a more general sense.
+  - Additional biography:
+    - I have a Bachelor's degree in physics and am now pursuing my Master's in data science, as I got highly interested in computational science during my Bachelor's. Outside of school and work, I enjoy doing various arts and crafts, and playing both video games and board games.
