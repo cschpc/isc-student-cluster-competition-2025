@@ -118,7 +118,7 @@ I have the overall responsibility of CSC's SCC activities and I take care of the
 
 # Why are we participating 
 
-Right from the start, since early 2022, participating student cluster competition in person and seeing the conference has been our main goal. Now, by building on the effort and experience gathered during the IndySCC competitions we are confident to have what it takes to make it in the in-person event. 
+Right from the start, since early 2022, participating student cluster competition in person and seeing the conference has been our main goal. Now, by building on the effort and experience gathered during the IndySCC competitions and the on-site SCC,  we are confident to have what it takes to make it in the in-person event also in ISC. 
 
 Our team consists of students from the University of Helsinki, and we want to be the first Finnish team competing at ISC’s student cluster competition. The team members are very interested in various aspects of high-performance computing, ranging from scientific software development and performance optimization to system administration and cluster management. All the team members see HPC skills as important assets in their studies, thesis projects and future careers.
 
@@ -127,9 +127,9 @@ With the student cluster competition bids and the related training CSC wants to 
 
 # Why do we believe that we have put together a winning team
 
-Our team is very competitive and motivated. The team advisors have a deep knowledge about HPC, and the student members have already lots of experience via IndySCC and their university studies. 
+Our team is very competitive and motivated. The team advisors have a deep knowledge about HPC, and the student members have already lots of experience via their university studies. 
 
-When preparing for IndySCC the team had extensive training, including the following subjects:
+When preparing for the competition we will follow the curriculum which has proven to be successful in the previous events. Training includes the following subjects:
 - Introduction to HPC and CPU architectures
 - Using supercomputers
 - System administration in Linux-based clusters
@@ -138,11 +138,7 @@ When preparing for IndySCC the team had extensive training, including the follow
 - Data-analysis
 - Performance tuning of scientific software
 
-There will be additional training in early 2024 targeting the ISC competition. As a part of the preparation the team has sparred with team RACKlette from CSCS, who have previously participated in the Student Cluster competition at the SC conference.
-
-An extremely important asset is that all the team members have prior experience in these types of competitions, having competed at IndySCC before. Hence the team is familiar with the dynamics and the stress of the SCC and knows how to manage their energy and effort during the 48 event. Moreover, Leopekka Saraste and Miro Palmu have worked as summer trainees at CSC in HPC programming tasks. As team has already been working together, they have easy time in collaborating.
-
-At the time of writing this application the 2023 IndySCC results have not yet been published but the team feels good about their performance and expects a corresponding final ranking.
+In large extent, the training will be carried out in collaboration with the team from Aalto university.
 
 The team has access to an extensive network of HPC experts in different fields. We get training and feedback not only from our excellent advisors, but also from experts at HPE, AMD and Intel, and several domain specialists working at CSC to find deeper insight into the applications and benchmarks we will be working with.  
 
