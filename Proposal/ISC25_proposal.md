@@ -2,7 +2,12 @@
 
 # Background
 
-CSC - IT Center for Science Ltd. is the national supercomputing center of Finland. In addition to running the national supercomputers Puhti and Mahti we lead the LUMI consortium and operate the Top500 #5 system LUMI. We also provide support and a comprehensive HPC training for users of the supercomputers. CSC is one of the founding members of PRACE, participated all the related PRACE projects and is currently active in the EuroHPC framework.
+CSC - IT Center for Science Ltd. is the national supercomputing center of Finland. In addition to running the national supercomputers Puhti and Mahti we lead the LUMI consortium and operate the Top500 #5 system LUMI. We also provide support and a comprehensive HPC training for users of the supercomputers. CSC is one of the founding members of PRACE and is currently active in the EuroHPC framework.
+
+CSC has been training and managing student cluster competition teams since 2022. As we are not a university recruiting teams is a bit more complicated for us. Accordingly, we have used our contacts and run open calls for applications to the team. From the beginning we have emphasized diversity and encouraged women and students from under-represented minorities to apply. The first team Revontuli in 2022 had members from four different Finnish universities, competed in the IndySCC and won the HPL Hero Run Challenge and was ranked #3 in the overall competition, out of ten competing teams. In 2023 we recruited the students from the Helsinki metropolitan area universities. The resulting Team Norppa started training in early 2023 and benefited from the previously gathered experience. Again the team was accepted only to the IndySCC but reached #2 overall ranking. Wanting to prove their skills in an on-site competition, team Norppa also applied to the SCC@ISC24 but turned down an invitation to the corresponding virtual event. 
+
+This year we are running two teams: One for the SCC@SC24 (Team Löyly) and one for the SCC@ISC25. Team Löyly will be the first ever Finnish team to compete in an ...
+
 
 CSC first started considering the student cluster competition in 2021 with the goal of having the first ever Finnish team competing in-person at SC22. CSC itself is not an educational institutions, but we published an open call and managed to put together a true all Finnish team with members from four different universities. We trained the team intensively and were quite disappointed when the team was accepted only to the virtual IndySCC instead of the in-person event. Regardless, the team Revontuli remained enthusiastic and convincingly won the HPL Hero Run Challenge and was ranked #3 in the overall competition, out of ten competing teams.
 
