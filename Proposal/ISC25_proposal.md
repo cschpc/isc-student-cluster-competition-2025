@@ -215,29 +215,31 @@ University of Helsinki has a number of high-profile computational science groups
 
 # HPC cluster availability for practicing benchmarks
 
-In addition to CSC's Puhti and Mahti supercomputers the team has access to LUMI in their training. During the preparation for the IndySCC23 HPE provided remote access to
-a small cluster similar to the planned SCC23 system. The remote access will be again available for the SCC@ISC24 bid.
+In addition to CSC's Puhti and Mahti supercomputers the team has access to LUMI in their training. We'll have remote access to the cluster provided by our hardware sponsor.
 
 Moreover, there is a cluster at the University of Helsinki available for students.
 
-Thus, we are able to practice the benchmarks on systems ranging from a handful of nodes to the current #3 system in the world, with a variety of architectures (Intel and AMD CPUs, Nvidia and AMD GPUs) and in various programming environments.
+Thus, we are able to practice the benchmarks on systems ranging from a handful of nodes to the current #5 system in the world, with a variety of architectures (Intel and AMD CPUs, Nvidia and AMD GPUs) and in various programming environments.
 
 # For all teams: Do you wish to participate in the in-person only, virtual only or both parts (in-person and virtual)? 
 
-We wish to participate in the in-person competition only. The team has experience of two virtual IndySCC competitions so it's high time to participate the in-person event.
+We are primarily targeting the in-person competition but are interested in the virtual one as well.
 
 # General overview of our cluster hardware
 
-We have a great relationship with HPE for our hardware sponsorship needs since 2022. HPE has provided us with training hardware and assistance during our bids for SCC '22 and '23.
-For the SCC@SC23 we co-designed a cluster based on HPE ProLiant DL385 Gen11 Server. The system consisted of three dual socket compute nodes with two AMD EPYC 9354 32 core CPUs and two AMD MI210 GPUs in each node. Each GPU has about 20 TFLOPS/s double precision peak performance. There is 768 GB (24 x 32 GB DDR5-4800) of memory and each GPU has 64 GB of HBM2e memory. For storage, there is 1 NVMe, 3.2 TB in each server.
+We have had a great relationship with HPE for our hardware sponsorship needs since 2022. HPE has provided us with training hardware and assistance during our bids for SCC '22, '23 and '24.
 
-The system has the highest performing air-cooled AMD GPUs and the CPUs are optimized for the competition requirements. The nodes are connected with the latest Slingshot interconnect which provides state-of-the-art performance for inter-node communication. As there is a power cap for the competition, we have considered all the related aspects. 
+However, CSC has been running a procurement project for replacing the national supercomputers since early 2024 due to which we haven't been able to discuss cluster sponsoring with our preferred vendors. Once the contract with the winner has been signed we'll immediately start the negotiations for the SCC cluster. We expect to have everything settled in early 2025.
 
-However, the system described above was designed to the SC23 SCC rules which for example stipulated 4.5 kW max power and minimum system size of three nodes. For the ISC24 SCC we will use the same basic concept, server type and AMD CPUs and GPUs but we will fine tune the number of nodes and their configuration (CPU model, number of GPUs, memory etc.) to optimally fit the ISC24 SCC rules, most importantly the 6 kW power cap.
+As a representative example, for the SCC@SC23 we co-designed with HPE a cluster based on HPE ProLiant DL385 Gen11 Server. The system consisted of three dual socket compute nodes with two AMD EPYC 9354 32 core CPUs and two AMD MI210 GPUs in each node. Each GPU had about 20 TFLOPS/s double precision peak performance. There was 768 GB (24 x 32 GB DDR5-4800) of memory and each GPU had 64 GB of HBM2e memory. For storage, there was 1 NVMe, 3.2 TB in each server.
+
+The system had the highest performing air-cooled AMD GPUs and the CPUs were optimized for the competition requirements. The nodes were connected with the latest Slingshot interconnect which provides state-of-the-art performance for inter-node communication. As there is a power cap for the competition, we had considered all the related aspects. 
+
+The hardawre for the coming system will be optimized for the SCC@ISC25 rules and finalized in early 2025.
 
 # For in-person teams: Do you need hardware sponsorship? 
 
-No. HPE has been our hardware provider since our SCC '22 bid.
+We are interested in learning more about this option.
 
                    
 
