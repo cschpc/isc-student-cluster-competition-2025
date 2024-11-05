@@ -104,7 +104,7 @@ to a number of national and international HPC code development projects, and I h
 functional theory code GPAW. Currently, my focus is in porting and optimizing large GPU based climate models in LUMI, most importantly 
 the ICON climate model. I was leading the PRACE Training work package for three years, and I am active in CSC's user training. I  
 contribute each year to several courses on parallel programming, GPU programming etc. I acted as a judge in ISC21 SCC, and I was the 
-main technical advisor for CSC's IndySCC teams in 2022 and 2023.
+main technical advisor for CSC's IndySCC teams in 2022 and 2023, as well as for the SCC team in 2024.
 
 ### Dr. Jussi Heikonen
 
