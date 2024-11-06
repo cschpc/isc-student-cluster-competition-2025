@@ -118,7 +118,7 @@ I have the overall responsibility of CSC's SCC activities and I take care of the
 
 # Why are we participating 
 
-Right from the start, since early 2022, participating student cluster competition in person and seeing the conference has been our main goal. Now, by building on the effort and experience gathered during the IndySCC competitions and the on-site SCC,  we are confident to have what it takes to make it in the in-person event also in ISC. 
+Right from the start, since early 2022, participating student cluster competition in person and experiencing the conference has been our main goal. Now, by building on the effort and experience gathered during the IndySCC competitions in 2022 and 2023 and the on-site SCC this year,  we are confident to have what it takes to make it in the in-person event also in ISC. 
 
 Our team consists of students from the University of Helsinki, and we want to be the first Finnish team competing at ISC’s student cluster competition. The team members are very interested in various aspects of high-performance computing, ranging from scientific software development and performance optimization to system administration and cluster management. All the team members see HPC skills as important assets in their studies, thesis projects and future careers.
 
@@ -138,11 +138,11 @@ When preparing for the competition we will follow the curriculum which has prove
 - Data-analysis
 - Performance tuning of scientific software
 
-In large extent, the training will be carried out in collaboration with the team from Aalto university.
+In large extent, the training will be carried out in collaboration with the other Finnish team from Aalto university.
 
 The team has access to an extensive network of HPC experts in different fields. We get training and feedback not only from our excellent advisors, but also from experts at HPE, AMD and Intel, and several domain specialists working at CSC to find deeper insight into the applications and benchmarks we will be working with.  
 
-Since our first bid in 2022, we have closely collaborated with HPE who has been our hardware sponsor and arranged remote access to test systems similar to the competition hardware. For SCC@ISC2024 HPE is again committed to providing the cluster and the related support during the preparation phase for the team.
+Since our first bid in 2022, we have closely collaborated with HPE who has been our hardware sponsor and arranged remote access to test systems similar to the competition hardware. For SCC@ISC2025 we'll collaborate with the vendor who wins the contract for the Finnish national supercomputer infrastructure renewal. 
 
 # What sorts of diversity in skills does our team possess 
 
