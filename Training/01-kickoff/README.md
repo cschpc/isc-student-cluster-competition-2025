@@ -1,7 +1,7 @@
 # SCC Kickoff meeting
 
 Date: 24.10.2024  
-Slides: [Link](./slides)
+Lightning presentations: [Link](https://kannu.csc.fi/s/sbgWdjXDkL8ZPtR)  
 
 ## Schedule
 
