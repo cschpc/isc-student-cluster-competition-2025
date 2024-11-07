@@ -139,7 +139,7 @@ Right from the start, since early 2022, participating student cluster competitio
 Our team consists of students from the University of Helsinki, and we want to be the first Finnish team competing at ISC’s student cluster competition. The team members are very interested in various aspects of high-performance computing, ranging from scientific software development and performance optimization to system administration and cluster management. All the team members see HPC skills as important assets in their studies, thesis projects and future careers.
 
 The LUMI supercomputer has increased the need for skilled HPC experts both in Finnish research groups and at CSC.
-With the student cluster competition bids and the related training CSC wants to increase the visibility of HPC towards university students and present it as an exciting career possibility. Additionally, CSC's aim is to use the SCC as a vehicle to expose students to the ISC conference where they can meet fellow students and network with professionals from vendors and computing centers. Some team members have already been offered positions in research groups through contacts created during the SCC activities.
+With the student cluster competition bids and the related training CSC wants to increase the visibility of HPC towards university students and present it as an exciting career possibility. Additionally, CSC's aim is to use the SCC as a vehicle to expose students to the ISC conference where they can meet fellow students and network with professionals from vendors and computing centers. Some members in our earlier teams have already been offered positions in research groups through contacts created during the SCC activities.
 
 # Why do we believe that we have put together a winning team
 
@@ -156,17 +156,12 @@ When preparing for the competition we will follow the curriculum which has prove
 
 In large extent, the training will be carried out in collaboration with the other Finnish team from Aalto university.
 
-The team has access to an extensive network of HPC experts in different fields. We get training and feedback not only from our excellent advisors, but also from experts at HPE, AMD and Intel, and several domain specialists working at CSC to find deeper insight into the applications and benchmarks we will be working with.  
+The team has access to an extensive network of HPC experts in different fields. We get training and feedback not only from our excellent advisors, but also from experts at HPE, AMD and Intel, and several domain specialists working at CSC.
 
 Since our first bid in 2022, we have closely collaborated with HPE who has been our hardware sponsor and arranged remote access to test systems similar to the competition hardware. For SCC@ISC2025 we'll collaborate with the vendor who wins the contract for the Finnish national supercomputer infrastructure renewal. 
 
 # What sorts of diversity in skills does our team possess 
 
-Two of our team members are computer science students, and four are physicists.  
-
-The physics students major in different subjects, like theoretical, computational and material physics. Additionally, all have minor studies in different subjects. A large range of studies and interests are included with our team members, including minoring studies in computer science, chemistry, mathematics and astronomy.
-
-During IndySCC 23 the team members specialized in different topics: some where responsible for the system administration, some for specific applications and benchmarks (Gromacs, CESM, HPL). Team members have also skills in different programming languages, e.g. C++, Fortran and Python.
 More detailed description about the skills of the team members can be found in the section about previous experience below.
 
 # Why will our team work well together 
@@ -219,7 +214,7 @@ CSC has fielded SCC teams since 2022 and sees the competition as an important to
 
 # How HPC is integrated in the educational curriculum of CSC 
 
-In training there is a de-facto division of responsibilities between CSC and Finnish universities; while the universities offer the basic training CSC takes care of the more advanced subjects in HPC programming and in HPC system usage.
+In training there is a de-facto division of responsibilities between CSC and Finnish universities; while the universities offer the basic training, CSC takes care of the more advanced subjects in HPC programming and in HPC system usage.
 
 The most important part of CSC's HPC education curriculum is the traditional summer school which has been organized already in 12 years. The summer schools gathers international participants to a beautiful lakeside setting for a 10 day boot camp of HPC and GPU programming together with evening sports activities, networking and fun. This year we reached a new record of 40 participants.
 
@@ -241,11 +236,11 @@ We are primarily targeting the in-person competition but are interested in the v
 
 We have had a great relationship with HPE for our hardware sponsorship needs since 2022. HPE has provided us with training hardware and assistance during our bids for SCC '22, '23 and '24.
 
-However, CSC has been running a procurement project for replacing the national supercomputers since early 2024 due to which we haven't been able to discuss cluster sponsoring with our preferred vendors. Once the contract with the winner has been signed we'll immediately start the negotiations for the SCC cluster. We expect to have everything settled in early 2025.
+However, CSC has been running a procurement project for replacing the national supercomputers since early 2024, and due to this we haven't been able to discuss cluster sponsoring with our preferred vendors. Once the contract with the winner has been signed we'll immediately start the negotiations for the SCC cluster. We expect to have everything settled in early 2025.
 
-As a representative example, for the SCC@SC23 we co-designed with HPE a cluster based on HPE ProLiant DL385 Gen11 Server. The system consisted of three dual socket compute nodes with two AMD EPYC 9354 32 core CPUs and two AMD MI210 GPUs in each node. Each GPU had about 20 TFLOPS/s double precision peak performance. There was 768 GB (24 x 32 GB DDR5-4800) of memory and each GPU had 64 GB of HBM2e memory. For storage, there was 1 NVMe, 3.2 TB in each server.
+As a representative example, for the SCC@SC24 we co-designed with HPE a cluster based on HPE ProLiant DL385 Gen11 Server. The system consisted of three dual socket compute nodes with two AMD EPYC 9354 32 core CPUs and two AMD MI210 GPUs in each node. Each GPU had about 20 TFLOPS/s double precision peak performance. There was 768 GB (24 x 32 GB DDR5-4800) of memory and each GPU had 64 GB of HBM2e memory. For storage, there was 1 NVMe, 3.2 TB in each server.
 
-The system had the highest performing air-cooled AMD GPUs and the CPUs were optimized for the competition requirements. The nodes were connected with the latest Slingshot interconnect which provides state-of-the-art performance for inter-node communication. As there is a power cap for the competition, we had considered all the related aspects. 
+The system had the highest performing air-cooled AMD GPUs and the CPUs were optimized for the competition requirements. The nodes were connected with the latest Infiniband interconnect which provides state-of-the-art performance for inter-node communication. As there is a power cap for the competition, we had considered all the related aspects. 
 
 The hardawre for the coming system will be optimized for the SCC@ISC25 rules and finalized in early 2025.
 
