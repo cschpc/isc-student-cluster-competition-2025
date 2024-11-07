@@ -17,33 +17,17 @@ To summarize: For the ISC25 competition we are leveraging all the experience gat
 All the students study at the University of Helsinki. 
 
 ### Team captain: Mr Julius Kiuru
-Email: julius.kiuru@helsinki.fi
-Address: Näyttelijäntie 22 E 57, 00400 Helsinki, Finland
-Phone number: +358440744436
+Email: julius.kiuru@helsinki.fi\
+Address: Näyttelijäntie 22 E 57, 00400 Helsinki, Finland\
+Phone number: +358440744436\
 
-Department: Department of Physics
-Year of enrollment: 2020
+Department of Physics\
+Year of enrollment: 2020\
 Age: 24
 
   - How will HPC help you in your academic career? List specific reasons for wanting to participate in the competition: HPC has been a growing passion for me during my university studies and right now I am very interested in learning how to improve the efficiency of computational simulations to be able to study ever larger systems. I want to pursue a PhD in computational biophysics and after that continue working with computational physics or HPC either in academia or the private sector. HPC plays a crucial role in all computational sciences, so understanding it better would help me immensely in achieving these goals. Competitions provide a great opportunity to learn from people who are more experienced than you and to meet other like-minded people. Not to mention how fun it is to challenge yourself and, through those challenges, learn more about yourself.
   - List any HPC and/or computational science experience you have (e.g. working on a university cluster with X software): I'm proficient in Python and Fortran and I have a lot experience using Linux command line and Bash. I have worked in the Biological Physics and Soft Matter research group in my university since the summer of 2022, fulltime in the summers and parttime during the rest of the year. In my research I have extensively used CSC's supercomputers Mahti and Puhti to run molecular dynamics simulations with GROMACS (the bulk of my data collection for my master's thesis was run on Mahti where I estimate to have used over 3000 CPU years). I also have experience using the cluster of my university to compile and run my own Fortran programs using both OpenMP and MPI. I have already taken 30 ECTS worth of master's level computational science/HPC courses, with more planned, along with many bachelor's level courses. Additionally, I have minor experience installing and running biological prediction tools, such as RosettaFold2 and LocalColabFold, locally.
   - Additional biography: I finished my Broad Bachelor in Physics at the University of Helsinki in 2023, with minors in computer science and chemistry. I am now studying in the Master's Programme in Theoretical and Computational Methods, with a focus on computational physics. I enjoy almost all types of games and sports, especially card games and ball sports. I also play the piano and used to be very good at competitive pokemon.
-
-Address: CSC - IT Center for Science, P.O. Box 405 FI-02101 Espoo, Finland  
-Phone number: +358505662896  
-Email: leopekka.saraste@csc.fi 
-
-Year of enrollment: 2018  
-Major: Computer Science  
-Minoring studies: Astronomy
-
-
-I started at the University of Helsinki as a physicist, but later found my true passion in computer science. During 2021, I started to delve into low-level C++ programming and MPI/OpenMP parallelism during a stint as a research assistant at my university. 
-This new-found passion into efficient and parallel computing lead me into joining the Finnish Team "Revontuli" at IndySCC '22. Our IndySCC team was highly successful, getting third place in the competition and reaching best HPL scores on the 300-node competition hardware out of the ten competing teams. The competition worked as a kickstarter to my eventual posting as a Junior application specialist at CSC.
-
-Nowadays I mainly work in the development and analysis of different scientific software that utilize the Finnish supercomputers. I work in the development and porting of software to utilize GPU's, including the development of the open source multiphysical simulation software Elmer. I have also worked as a lecturer at CSC Summer School in High-performance Computing in 2022 and 2023, where I prepared lectures and exercises for numerous HPC topics. 
-
-I worked as a student volunteer at ISC '23 and was amazed by the conference. I would love to attend again in 2024, this time seeing the conference through the lense of a student in the cluster competition!
 
 ### Mr. Joonatan Huhtasalo 
 Year of enrollment: 2020  
