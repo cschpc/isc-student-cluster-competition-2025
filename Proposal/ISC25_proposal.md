@@ -104,7 +104,7 @@ Age: 25
 Email: henriettahomm@gmail.com\
 Department of Physics\
 Year of enrollment: 2019\
-Age: 24\
+Age: 24
 
   - How will HPC help you in your academic career? List specific reasons for wanting to participate in the competition:
     - I am a data science major specializing in machine learning and big data, and as such learning HPC plays a crucial part in my career aspirations. I wish to gain practical experience, which is often missing from university courses lacking the resources for hands-on computing, as well as network within the field. Additionally, I have never participated in any kind of hackathon, and this competition seems like a fun and productive kind of new experience. I value learning in diverse ways and aim to see and try as many new things as I can in order to broaden both my worldview and my skills. 
@@ -185,9 +185,9 @@ Additionally, the team has fun together and meets also outside the training. All
 
 # What experience our team members have 
 
-Our team competed at IndySCC both in 2022 and 2023 with a great track record. In 2022, the team came in third overall out of ten competing teams, and won the HPL Hero run challenge. As of writing this application, the results of IndySCC 2023 aren't available yet, but the team performed well and had a lot of fun competing in it. 
+Our teams competed at IndySCC both in 2022 and 2023 with a great track record. In 2022, the team came in third overall out of ten competing teams, and won the HPL Hero run challenge. The 2023 IndySCC team managed to improve this and placed 2nd overall! For 2024 our team was accepted to the in-person competition in SCC@SC24 in Atlanta. 
 
-As each team member mentioned in the biography section of this proposal, together we have extensive experience in a multitude of fields related to scientific computing and HPC. Some have worked as research assistants, others as software developers and some even in GPU programming tasks during various internships. We have a clear distinction between our scientific domain specialists and system administrators, with the latter consisting mainly of our skilled computer scientists. Still, each member is fluent in using Linux-based clusters and in tuning scientific software to its fullest.
+As each team member mentioned in the biography section of this proposal, together we have extensive experience in a multitude of fields related to scientific computing and HPC. Some have worked as research or teaching assistants and almost everybody has used CSC's supercomputers and/or university clusters during their studies. Additionally, a few of the team members are familiar with Linux system administration.
 
 To name some prior experience our different team members bring to the table:  
 - Miro Valorinta, has attended many Hackathons outside of IndySCC, and brings us great scripting experience.  
