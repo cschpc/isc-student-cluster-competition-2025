@@ -26,9 +26,11 @@ Department of Physics\
 Year of enrollment: 2020\
 Age: 24
 
-  - How will HPC help you in your academic career? List specific reasons for wanting to participate in the competition: HPC has been a growing passion for me during my university studies and right now I am very interested in learning how to improve the efficiency of computational simulations to be able to study ever larger systems. I want to pursue a PhD in computational biophysics and after that continue working with computational physics or HPC either in academia or the private sector. HPC plays a crucial role in all computational sciences, so understanding it better would help me immensely in achieving these goals. Competitions provide a great opportunity to learn from people who are more experienced than you and to meet other like-minded people. Not to mention how fun it is to challenge yourself and, through those challenges, learn more about yourself.
-  - List any HPC and/or computational science experience you have (e.g. working on a university cluster with X software): I'm proficient in Python and Fortran and I have a lot experience using Linux command line and Bash. I have worked in the Biological Physics and Soft Matter research group in my university since the summer of 2022, fulltime in the summers and parttime during the rest of the year. In my research I have extensively used CSC's supercomputers Mahti and Puhti to run molecular dynamics simulations with GROMACS (the bulk of my data collection for my master's thesis was run on Mahti where I estimate to have used over 3000 CPU years). I also have experience using the cluster of my university to compile and run my own Fortran programs using both OpenMP and MPI. I have already taken 30 ECTS worth of master's level computational science/HPC courses, with more planned, along with many bachelor's level courses. Additionally, I have minor experience installing and running biological prediction tools, such as RosettaFold2 and LocalColabFold, locally.
-  - Additional biography: I finished my Broad Bachelor in Physics at the University of Helsinki in 2023, with minors in computer science and chemistry. I am now studying in the Master's Programme in Theoretical and Computational Methods, with a focus on computational physics. I enjoy almost all types of games and sports, especially card games and ball sports. I also play the piano and used to be very good at competitive pokemon.
+HPC has been a growing passion for me during my university studies and right now I am very interested in learning how to improve the efficiency of computational simulations to be able to study ever larger systems. I want to pursue a PhD in computational biophysics, and after that continue working with computational physics or HPC either in academia or in the private sector. HPC plays a crucial role in all computational sciences, so understanding it better would help me immensely in achieving these goals. Competitions provide a great opportunity to learn from people who are more experienced than you, and to meet other like-minded people. Not to mention how fun it is to challenge yourself and, through those challenges, learn more about yourself.
+
+I'm proficient in Python and Fortran and I have a lot experience using Linux command line and Bash. I have worked in the Biological Physics and Soft Matter research group in my university since the summer of 2022, fulltime in the summers and parttime during the rest of the year. In my research I have extensively used CSC's supercomputers Mahti and Puhti to run molecular dynamics simulations with GROMACS (the bulk of my data collection for my master's thesis was run on Mahti where I estimate to have used over 3000 CPU years). I have also experience using the cluster of my university to compile and run my own Fortran programs using both OpenMP and MPI. I have already taken 30 ECTS worth of master's level computational science/HPC courses, with more planned, along with many bachelor's level courses. Additionally, I have some experience installing and running biological prediction tools, such as RosettaFold2 and LocalColabFold in my local workstation.
+  
+I finished my Broad Bachelor in Physics at the University of Helsinki in 2023, with minors in computer science and chemistry. I am now studying in the Master's Programme in Theoretical and Computational Methods, with a focus on computational physics. I enjoy almost all types of games and sports, especially card games and ball sports. I also play the piano and used to be very good at competitive pokemon.
 
 ### Mr. Lucas de Cabo Lozano
 
@@ -40,17 +42,11 @@ Department:
 Year of enrollment: 2020\
 Age: 22
 
-- How will HPC help you in your academic career? List specific reasons for wanting to participate in the competition:
-  1. HPC is a field that will allow me to apply my theoretical knowledge and skills in solving realistic problems, and to enable others to do so.
-  2. Training for the competition will provide extra expertise in the fields I am most interested in: Mathematics and Computer Science.
-  3. Competitions are fun, a high level of challenge and of skill guarantee great results and lasting knowledge.
-  4. It will provide extra specialization in HPC in particular, which is a field I am open to end up working in, so it may directly increase employability.
-- List any HPC and/or computational science experience you have (e.g. working on a university cluster with X software):
-  1. Strong mathematical foundation, and good programming skills in Python and C++ coupled with competent bash and Linux tinkering skills. 
-  2. I have studied relevant courses such as Big Data Platforms recently, where core concepts of HPC are discussed, such as the architectures of supercomputers and their performance.
-  3. I am also studying Programming Parallel Computers, which is about optimizing C++ code to run parallelly, multi-threaded or on GPUs, using OpenMP and CUDA.
-  4. I am interested in computational mathematics and numerical methods, f.e. solving ~100 problems in project Euler and doing other hobby projects in the same spirit.
-- Extra biography for the proposal (pick and mix): I was born in Salamanca, Spain. I moved to Finland on 2020 to study what I enjoy the most, luckily the full degree was available in English. Most of my university friends are somehow international, which has been culturally eye-opening. I learned some Finnish during these years. Some things I often enjoy are puzzles and games, but also playing the French horn and doing sports, mainly ice skating and tennis.
+HPC is a field that will allow me to apply my theoretical knowledge and skills in solving realistic problems, and to enable others to do so. Training for the competition will provide me extra expertise in the fields I am most interested in: Mathematics and Computer Science. I think that competitions are fun, giving a high level of challenge. They provide new skills which ends up in great results and lasting knowledge. Participation will provide me extra specialization in HPC in particular, which is a field I might to end up working in, so it may directly increase employability.
+
+I have strong mathematical foundation, and good programming skills in Python and C++ coupled, with competent bash and Linux tinkering skills. I have studied recently relevant courses such as Big Data Platforms, where core concepts of HPC are discussed, such as the architectures of supercomputers and their performance. I am also studying Programming Parallel Computers, which is about optimizing C++ code to run parallelly, multi-threaded or on GPUs, using OpenMP and CUDA.
+
+I am interested in computational mathematics and numerical methods, f.e. solving ~100 problems in project Euler and doing other hobby projects in the same spirit. I was born in Salamanca, Spain. I moved to Finland on 2020 to study what I enjoy the most, luckily the full degree was available in English. Most of my university friends are somehow international, which has been culturally eye-opening. I learned some Finnish during these years. Some things I often enjoy are puzzles and games, but also playing the French horn and doing sports, mainly ice skating and tennis.
 
 ### Mr. Timo Mäkelä
 
@@ -59,9 +55,11 @@ Department of Computer Science\
 Year of enrollment: 2022\
 Age: 23
 
-  - How will HPC help you in your academic career? List specific reasons for wanting to participate in the competition: I have a long-term goal of doing research and advancing the field of HPC. I find it interesting how AI workloads are becoming part of HPC and the merging of traditional HPC with the cloud.  I’m also interested in understanding how to run distributed AI algorithms effectively on a large-scale system. Another interest of mine is HPC from the system engineering side and understanding how HPC resources can be utilized optimally with recent developments in scheduling algorithms and job malleability for example. These are topics where knowledge of cluster environment and optimization techniques are important. The skills learned in the competition would accelerate my career as a future HPC professional and would also help me connect with like-minded HPC enthusiasts, vendors and leaders in the field which could lead to future research and industry opportunities.
-  - List any HPC and/or computational science experience you have (e.g. working on a university cluster with X software): I work as a teaching assistant for “Scientific computing II” course which is a course teaching scientific computing using Fortran, compiling and running applications and using the Linux command line. I have worked as a research assistant doing large scale data analysis with Python and MATLAB. On my free time I am passionate about learning GPU computing.
-  - Additional biography: I like to spend time in nature through hiking, trail running and snowboarding during the winter. I have a studied physics but decided to switch my major to computer science after becoming passionate about HPC. Im an avid reader of HPC news and like to stay up to date with developments and trends in the field. I enjoy playing the drums and producing dance music on my computer.
+I have a long-term goal of doing research and advancing the field of HPC. I find it interesting how AI workloads are becoming part of HPC and the merging of traditional HPC with the cloud.  I’m also interested in understanding how to run distributed AI algorithms effectively on a large-scale system. Another interest of mine is HPC from the system engineering side and understanding how HPC resources can be utilized optimally with recent developments in scheduling algorithms and job malleability, for example. These are topics where knowledge of cluster environment and optimization techniques are important. The skills learned in the competition would accelerate my career as a future HPC professional and would also help me connect with like-minded HPC enthusiasts, vendors and leaders in the field which could lead to future research and industry opportunities.
+
+I work as a teaching assistant for “Scientific computing II” course which is a course about scientific computing using Fortran, compiling and running applications and using the Linux command line. I have worked as a research assistant doing large scale data analysis with Python and MATLAB. On my free time I am passionate about learning GPU computing.
+
+I like to spend time in nature through hiking, trail running and snowboarding during the winter. I have a studied physics but decided to switch my major to computer science after becoming passionate about HPC. Im an avid reader of HPC news and like to stay up to date with developments and trends in the field. I enjoy playing the drums and producing dance music on my computer.
 
 ### Mr. Trung Nguyen
 
@@ -70,16 +68,12 @@ Department of Physics\
 Year of enrollment: 2024\
 Age: 21
 
-  - How will HPC help you in your academic career? List specific reasons for wanting to participate in the competition:
-    1. HPC is a crucial part in my work, which relies heavily on fast and efficient simulations of complex physics systems. Thus, a good understaning of HPC is essential for any scientist in my field.
-    2. This is my first time joining a competition outside of my native country, hence it is both an oppoturnity and a challenge for me to push my limits and compete with other professionals in HPC.
-    3. This is an excellent event to meet and learn about the current developments of the HPC industry, which is beneficial for my future career and network.
-  - List any HPC and/or computational science experience you have (e.g. working on a university cluster with X software):
-    1. Research trainee at VTT Technical Research Centre of Finland: high-level programming (Python & MATLAB), FEM simulation (Abaqus & COMSOL), and data analysis (numpy, scipy, OpenCV, etc.).
-    2. Teaching assistant at Aalto University: courses on stochastic modelling (Python), machine learning (scikit-learn & Pytorch), optimization (Julia), and numerical methods in engineering (MATLAB).
-    3. Several projects which require running software on HPC systems: Puhti, Mahti and Allas at CSC, and Triton cluster at Aalto University.
-    4. Several courseworks in computational science: Scientific Computing, Deep Learning, Computational Models in Stochastics, Computational Inverse Problems, etc.
-  - Additional biography: I moved from Ho Chi Minh City, Vietnam to Finland in 2021 to pursue a degree in Computational Engineering at Aalto University. After my bachelor's studies, I reapplied and switched to University of Helsinki for a master's in computational physics, hence I'm one of the few physics students in the department with a background in engineering. During my free time, I enjoy reading historical documentaries (my favorites is Vietnam war), playing badminton, and trail running during the summer.
+HPC is a crucial part in my work, which relies heavily on fast and efficient simulations of complex physics systems. Thus, a good understaning of HPC is essential for any scientist in my field. This is my first time joining a competition outside of my native country, hence it is both an oppoturnity and a challenge for me to push my limits, and compete with other professionals in HPC. This is an excellent event to meet and learn about the current developments of the HPC industry, which is beneficial for my future career and network.
+
+I am research trainee at VTT Technical Research Centre of Finland, where I have been involved in high-level programming (Python & MATLAB), FEM simulations (Abaqus & COMSOL), and data analysis (numpy, scipy, OpenCV, etc.). I have been also teaching assistant at Aalto University in courses on stochastic modelling (Python), machine learning (scikit-learn & Pytorch), optimization (Julia), and numerical methods in engineering (MATLAB).
+During my work I have been running software on various HPC systems, including Puhti, Mahti and Allas at CSC, and Triton cluster at Aalto University. I have completed several courseworks in computational science, such as Scientific Computing, Deep Learning, Computational Models in Stochastics, Computational Inverse Problems, etc.
+  
+I moved from Ho Chi Minh City, Vietnam to Finland in 2021 to pursue a degree in Computational Engineering at Aalto University. After my bachelor's studies, I reapplied and switched to University of Helsinki for a master's in computational physics, hence I'm one of the few physics students in the department with a background in engineering. During my free time, I enjoy reading historical documentaries (my favorites is Vietnam war), playing badminton, and trail running during the summer.
 
 ### Mr. Jens Helin
 
@@ -90,14 +84,11 @@ Department of Computer Science
 Year of enrollment: 2023\
 Age: 25
 
-- How will HPC help you in your academic career? List specific reasons for wanting to participate in the competition:
-  - My primary interests are computer science, statistics, and computer networking & security. While studying these fields, particularly CS and statistics, I have run into HPC numerous times, for example in parallel computing, simulations, and data analysis. By attending the competition, I would like to learn more about HPC and its practical side to apply it in the future, whether for my studies, research, or work in these fields.
-  - I have never attended a competition like this as a participant, and the concept of solving problems together with a team of students with different backgrounds sounds both fun and like a great way to learn HPC.
-  - The competition will allow me to network with and learn from experts, peers, and teammates.
-- List any HPC and/or computational science experience you have (e.g. working on a university cluster with X software):
-  - Programming skills in Python, R, C++, Bash scripting. Coursework in statistics and mathematical analysis.
-  - In my most recent internship as a teaching assistant developing a course, my most relevant tasks were file and image comparison (used for example numpy, OpenCV), running these comparisons in containers, parsing large data using Bash scripts and C++ to achieve a desired format, setting up an OpenSSH server on a virtual machine.
-- Additional biography: I started my bachelor's studies in computer science studies in 2023 after studying Automation Engineering for a couple of years, as I realised this was the field I was passionate about and wanted to learn more about and build my career in. I want to do my master's degree in either computer science or data science. In my free time, I enjoy reading classic literature, watching movies, and exploring new music. I also like running, working out, and occasionally going bouldering.
+My primary interests are computer science, statistics, and computer networking and security. While studying these fields, particularly CS and statistics, I have run into HPC numerous times, for example in parallel computing, simulations, and data analysis. By attending the competition, I would like to learn more about HPC and its practical side to apply it in the future, whether for my studies, research, or work in these fields. I have never attended a competition like this as a participant, and the concept of solving problems together with a team of students with different backgrounds sounds both fun and like a great way to learn HPC. The competition will allow me to network with and learn from experts, peers, and teammates.
+
+I have programming skills in Python, R, C++, Bash scripting, and I have done coursework in statistics and mathematical analysis. In my most recent internship as a teaching assistant developing a course, my most relevant tasks were file and image comparison (used for example numpy, OpenCV), running these comparisons in containers, parsing large data using Bash scripts and C++ to achieve a desired format, setting up an OpenSSH server on a virtual machine.
+
+I started my bachelor's studies in computer science studies in 2023 after studying Automation Engineering for a couple of years, as I realised this was the field I was passionate about and wanted to learn more about and build my career in. I want to do my master's degree in either computer science or data science. In my free time, I enjoy reading classic literature, watching movies, and exploring new music. I also like running, working out, and occasionally going bouldering.
 
 ### Ms. Henrietta Homm
 
@@ -106,12 +97,11 @@ Department of Physics\
 Year of enrollment: 2019\
 Age: 24
 
-  - How will HPC help you in your academic career? List specific reasons for wanting to participate in the competition:
-    - I am a data science major specializing in machine learning and big data, and as such learning HPC plays a crucial part in my career aspirations. I wish to gain practical experience, which is often missing from university courses lacking the resources for hands-on computing, as well as network within the field. Additionally, I have never participated in any kind of hackathon, and this competition seems like a fun and productive kind of new experience. I value learning in diverse ways and aim to see and try as many new things as I can in order to broaden both my worldview and my skills. 
-  - List any HPC and/or computational science experience you have (e.g. working on a university cluster with X software):
-    - For the past few years, I have worked as a research assistant at Aalto University, studying computational materials science. In this work, I use CSC Puhti supercomputer to run ab-initio atomistic simulations using FHI-aims code and train various machine learning models on the computed data, with the aim of predicting the physical properties of atomistic structures. I am interested in continuing in computational research, and would greatly benefit from learning more about HPC. So far, I have mainly used these software packages as black boxes, without knowing what is going on under the surface. In any case, my work has given me have plenty of experience in computational materials science and scientific computing in a more general sense.
-  - Additional biography:
-    - I have a Bachelor's degree in physics and am now pursuing my Master's in data science, as I got highly interested in computational science during my Bachelor's. Outside of school and work, I enjoy doing various arts and crafts, and playing both video games and board games.
+I am a data science major specializing in machine learning and big data, and as such learning HPC plays a crucial part in my career aspirations. I wish to gain practical experience, which is often missing from university courses lacking the resources for hands-on computing, as well as network within the field. Additionally, I have never participated in any kind of hackathon, and this competition seems like a fun and productive kind of new experience. I value learning in diverse ways and aim to see and try as many new things as I can in order to broaden both my worldview and my skills. 
+
+For the past few years, I have worked as a research assistant at Aalto University, studying computational materials science. In this work, I use CSC Puhti supercomputer to run ab-initio atomistic simulations using FHI-aims code and train various machine learning models on the computed data, with the aim of predicting the physical properties of atomistic structures. I am interested in continuing in computational research, and would greatly benefit from learning more about HPC. So far, I have mainly used these software packages as black boxes, without knowing what is going on under the surface. In any case, my work has given me have plenty of experience in computational materials science and scientific computing in a more general sense.
+
+I have a Bachelor's degree in physics and am now pursuing my Master's in data science, as I got highly interested in computational science during my Bachelor's. Outside of school and work, I enjoy doing various arts and crafts, and playing both video games and board games.
 
 ## Advisors
 
@@ -129,6 +119,8 @@ functional theory code GPAW. Currently, my focus is in porting and optimizing la
 the ICON climate model. I was leading the PRACE Training work package for three years, and I am active in CSC's user training. I  
 contribute each year to several courses on parallel programming, GPU programming etc. I acted as a judge in ISC21 SCC, and I was the 
 main technical advisor for CSC's IndySCC teams in 2022 and 2023, as well as for the SCC team in 2024.
+
+In my free time I enjoy running, skiing and reading. My real passion music, I play guitar in several bands and I love it loud.
 
 ### Dr. Jussi Heikonen
 
