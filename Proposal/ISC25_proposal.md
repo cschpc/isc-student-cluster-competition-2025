@@ -162,13 +162,11 @@ Since our first bid in 2022, we have closely collaborated with HPE who has been 
 
 # What sorts of diversity in skills does our team possess 
 
-More detailed description about the skills of the team members can be found in the section about previous experience below.
+Our team comprises of three basic scientific disciplines: computer science, physics, and mathematics. Physics students have experience in different fields, such as running molecular dynamics simulations and density-functional theory simualtions, using finite-element methods, and training AI models with simualtion data. Team members posses various computer skills, for example Linux command line usage, data analysis with Python and parallel programming with C++ and Fortran. Most team members have previous experience in using HPC systems, and team members have experience also on containers and cloud technologies. 
 
 # Why will our team work well together 
 
-We competed at IndySCC 2023 with an almost identical team. The intensive training period (that started in early 2023) with the bi-weekly sessions and the competition increased the cohesion between the team members even further and fine tuned the cooperation and managing the various tasks and roles. The team advisors bring continuity from the 2022 bid.
-
-Additionally, the team has fun together and meets also outside the training. All the members found the IndySCC `23 competition to be exciting and engaging and would love to have a similar experience at ISC, hopefully on-site at the conference. 
+We started some group building activities already during the joint interview of applicants. During the kick-off meeting, we already saw effective group work and great potential for further collaboration. The intensive training period in spring 2025 will increase the cohesion between the team members, and fine tune the cooperation and managing the various tasks and roles. The team advisors bring continuity already from 2022. Many team members also share hobbies such as playing musical instruments and different games. 
 
 # What experience our team members have 
 
@@ -176,22 +174,15 @@ Our teams competed at IndySCC both in 2022 and 2023 with a great track record. I
 
 As each team member mentioned in the biography section of this proposal, together we have extensive experience in a multitude of fields related to scientific computing and HPC. Some have worked as research or teaching assistants and almost everybody has used CSC's supercomputers and/or university clusters during their studies. Additionally, a few of the team members are familiar with Linux system administration.
 
-To name some prior experience our different team members bring to the table:  
-- Miro Valorinta, has attended many Hackathons outside of IndySCC, and brings us great scripting experience.  
-- Miro Palmu and Leopekka Saraste, have participated in CSC HPC Summer school as teaching assistants and Simo Soini participated as a student.  
-- Simo Soini has worked in system management duties in an IT trainee position and is a skilled system administrator. Together with Miro Palmu, who has expert knowledge with using Ansible, they make a great System administrator pair in the scope of a Student cluster competition.  
-- Joonatan Huhtasalo and Saana Vihuri have a lot of experience in using scientific software from their theoretical physics studies (software like LAMPPS, Gromacs, mumax3) and they are the physics experts in our team. Additionally, both have worked together during IndySCC '23 on managing team's social media accounts and on our team's visual representation (including putting together a team poster).  
-- Leopekka Saraste has been working at CSC since 2022, and brings the team expert knowledge on our hardware and on the low-level details of our Cray Software stack and the underlying MPI installation, compilers, etc. He will guide the team in utilizing our cluster's GPUs to their fullest and getting the most out of our system. Lastly, he participated in ISC23 and SC23 as a student volunteer. There, he discussed the competition details with the SCC teams present. This knowledge will be utilized in the team training prior to the conference. 
-
-Lastly we would like to add, that the team members have first hand experience with several scientific computing applications (e.g. Elmer, LAMMPS, Vlasiator, GROMACS, mumax3, PARCAS to name a few) through their work as research assistants and trainees.
+Lastly we would like to add, that the team members have first hand experience with several scientific computing applications (e.g. Abaqus, COMSOL, FHIaims, GROMACS to name a few) through their work as research assistants and trainees.
 
 # How will our team work together to tune and optimize the application set 
 
 We have clear tasks planned for the different team members based on our interests and prior experience. We divide the work in the competition between us as equally as possible.  
 
-More precisely, we have clear tasks planned for the different team members based on our interests and prior experience. We divide the work in the competition between us as equally as possible. Three of the team members will take on the “system administrator” role and will manage the cluster’s general administration, including installing new software, managing the job scheduling programs etc., while the rest focus more on the applications. For redundance, each team member will know the basics of running each application and benchmark in the competition, but before the event we will divide the team into groups, with each specializing in one of the components. 
+Some team members will take on the “system administrator” role and will manage the cluster’s general administration, including installing new software, managing the job scheduling programs etc., while the rest focus more on the applications. For redundance, each team member will know the basics of running each application and benchmark in the competition, but before the event we will divide the team into groups, with each specializing in one of the components. 
 
-For HPL, we are planning to use vendor-provided binaries, as these give normally the best results. The other applications are not known yet, but as they are revealed, we will practice with them in advance. Our usual workflow is to tune the following in each application: 
+For HPL, we are planning to use vendor-provided binaries, as these give normally the best results. We will pracitce with all the applications in advance and look for optimal settings. Our usual workflow is to tune the following in each application: 
 
 - Build options (compilers and flags, MPI and BLAS libraries *etc.*) 
 - Runtime options (affinity, OpenMP threading) 
