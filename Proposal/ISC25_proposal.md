@@ -132,13 +132,13 @@ Nowadays I mainly work in the development and analysis of different scientific s
 
 ### Dr. Jussi Heikonen
 
-- Development manager, HPC support
+- Manager, HPC programming support
 
 I received my Ph.D. in applied mathematics from Helsinki University of Technology in 1998 and I've been been at CSC since 1997. I have 
 managed the group responsible for CSC's HPC programming support and training from 2004. In addition to code performance analysis and 
 optimization, parallelization and GPU programming in various national and international projects I have been involved in all CSC's HPC platform procurements since 2000.
 
-I have the overall responsibility of CSC's SCC activities and I take care of the related administrative tasks and practicalities.
+I have the overall responsibility of CSC's SCC activities and take care of the related administrative tasks and practicalities.
 
 # Why are we participating 
 
