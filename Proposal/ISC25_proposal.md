@@ -170,7 +170,7 @@ Since our first bid in 2022, we have closely collaborated with HPE who has been 
 
 # What sorts of diversity in skills does our team possess 
 
-Our team comprises of three basic scientific disciplines: computer science, physics, and mathematics. The physics students in our team have experience in different fields, such as running molecular dynamics simulations and density-functional theory simualtions, using finite-element methods, and training AI models with simulation data. 
+Our team comprises of three basic scientific disciplines: computer science, physics, and mathematics. The physics students in our team have experience in different fields, such as running molecular dynamics simulations and density-functional theory simulations, using finite-element methods, and training AI models with simulation data. 
 All team members have great skills with Linux systems and programming (python/C/C++/Fortran) and most are familiar with the basics of parallel programming from prior experience. Most members have previous experience in using HPC systems, and some also have experience on containers and cloud technologies. 
 
 # Why will our team work well together 
