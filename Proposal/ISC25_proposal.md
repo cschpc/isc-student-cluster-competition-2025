@@ -146,8 +146,8 @@ Right from the start, since early 2022, participating in the student cluster com
 
 Our team consists of students from the University of Helsinki, and we want to be the first Finnish team competing at ISC’s student cluster competition. The team members are very interested in various aspects of high-performance computing, ranging from scientific software development and performance optimization to system administration and cluster management. All the team members see HPC skills as important assets in their studies, thesis projects and future careers.
 
-On the CSC-side, the LUMI supercomputer has increased the need for skilled HPC experts both in Finnish research groups and at CSC. CSC hopes to increase the visibility of HPC as a great career/research opportunity towards university students in Finland.
-Additionally, CSC's aim is to use the SCC as a vehicle to expose students to the ISC conference where they can meet fellow students and network with professionals from vendors and computing centers. Some members in our earlier teams have already been hired to research groups as a direct continuance through the contacts created during their SCC training activities.
+On the CSC-side, the LUMI supercomputer has increased the need for skilled HPC experts both in Finnish research groups and at CSC. Through the cluster competition, CSC hopes to increase the visibility of HPC as a great career/research opportunity towards university students in Finland, and to use the competition as a vehicle to expose students to the ISC conference where they can meet fellow students and network with professionals from vendors and computing center. 
+Some members in earlier Finnish teams have already been hired to research groups as a direct continuance through the contacts created during their SCC training activities.
 
 # Why do we believe that we have put together a winning team
 
