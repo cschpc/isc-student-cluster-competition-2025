@@ -109,7 +109,7 @@ Both advisors work at CSC - IT Center of Science.
 
 ### Dr. Jussi Enkovaara
 
-- Senior Application Specialist, HPC support
+- Senior Application Specialist, HPC programming support
 - Docent, Computational Physics, Aalto University Finland
 
 I received my Ph.D. in electronic structure simulations in 2003, and I've been working at CSC since 2005. I have extensive experience in 
@@ -121,6 +121,14 @@ contribute each year to several courses on parallel programming, GPU programming
 main technical advisor for CSC's IndySCC teams in 2022 and 2023, as well as for the SCC team in 2024.
 
 In my free time I enjoy running, skiing and reading. My real passion music, I play guitar in several bands and I love it loud.
+
+### Mr. Leopekka Saraste
+
+- Junior Application Specialist, HPC programming support
+
+I started at the University of Helsinki as a physicist, but later found my true passion in computer science. During 2021, I started to delve into low-level C++ programming and MPI/OpenMP parallelism during a stint as a research assistant at my university. This new-found passion into efficient and parallel computing lead me into joining the Finnish Team "Revontuli" at IndySCC '22. Our IndySCC team was highly successful, getting third place in the competition and reaching best HPL scores on the 300-node competition hardware out of the ten competing teams. The competition worked as a kickstarter to my eventual posting as a Junior application specialist at CSC.
+
+Nowadays I mainly work in the development and analysis of different scientific software that utilize the Finnish supercomputers. I work in the development and porting of software to utilize GPU's, including the development of the open source multiphysical FEM simulation software Elmer. I have also worked as a lecturer at CSC Summer School in High-performance Computing in 2022 and 2023, where I prepared lectures and exercises for numerous HPC topics. Additionally, I was the second advisor for our 2023 and 2024 SCC@SC teams, the role in which I enjoyed very much and am continuing in the current ISC25 bid. Finally, I worked as a student volunteer at ISC '23 and '24. 
 
 ### Dr. Jussi Heikonen
 
