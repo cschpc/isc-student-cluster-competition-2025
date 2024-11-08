@@ -105,7 +105,7 @@ I have a Bachelor's degree in physics and am now pursuing my Master's in data sc
 
 ## Advisors
 
-Both advisors work at CSC - IT Center of Science.
+All the advisors work at CSC - IT Center of Science.
 
 ### Dr. Jussi Enkovaara
 
