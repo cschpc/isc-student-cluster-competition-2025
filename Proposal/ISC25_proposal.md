@@ -2,11 +2,11 @@
 
 # Background
 
-CSC - IT Center for Science Ltd. is the national supercomputing center of Finland. In addition to running the national supercomputers Puhti and Mahti we lead the LUMI consortium and operate the Top500 #5 system LUMI. We also provide support and a comprehensive HPC training for users of the supercomputers. CSC is one of the founding members of PRACE and is currently active in the EuroHPC framework.
+CSC - IT Center for Science Ltd. is the national supercomputing center of Finland. In addition to running the national supercomputers Puhti and Mahti we lead the LUMI consortium and operate the Top500 #5 system LUMI. We also provide support and a comprehensive HPC training for users of our supercomputers. CSC is one of the founding members of PRACE and is currently active in the EuroHPC framework.
 
-CSC has been training and managing student cluster competition teams since 2022. As we are not a university, recruiting teams is a bit more complicated for us. Accordingly, we have used our contacts and run open calls for applications to the team. From the beginning we have emphasized diversity and encouraged women and students from under-represented minorities to apply. The first team Revontuli in 2022 had members from four different Finnish universities, competed in the IndySCC and won the HPL Hero Run Challenge and was ranked #3 in the overall competition, out of ten competing teams. In 2023 we recruited the students from the Helsinki metropolitan area universities. The resulting Team Norppa started training in early 2023 and benefited from the previously gathered experience. Again the team was accepted only to the IndySCC but reached #2 overall ranking. Wanting to prove their skills in an on-site competition, team Norppa also applied to the SCC@ISC24 but turned down an invitation to the corresponding virtual event, as team had already experienced IndySCC.
+CSC has been training and managing student cluster competition teams since 2022. As we are not a university, recruiting teams is a bit more complicated for us. Accordingly, we have used our contacts at universities and run open calls for applications to the team. From the beginning we have emphasized diversity and encouraged women and students from under-represented minorities to apply. The first team (Revontuli) in 2022 had members from four different Finnish universities, competed in the IndySCC and won the HPL Hero Run Challenge and was ranked #3 in the overall competition, out of ten competing teams. In 2023 we recruited the students from the Helsinki metropolitan area universities. The resulting Team Norppa started training in early 2023 and benefited from the previously gathered experience. Again the team was accepted only to the IndySCC but reached #2 overall ranking. Wanting to prove their skills in an on-site competition, team Norppa also applied to the SCC@ISC24 but turned down an invitation to the corresponding virtual event, as team had already experienced the similar IndySCC.
 
-This year we are running two teams: One for the SCC@SC24 (Team Löyly) and one for the SCC@ISC25. Team Löyly will be the first ever Finnish team to compete in an on-site SCC in Atlanta in November 2024. For the SCC@ISC25 there will in fact be two teams applying from Finland: In addition to our team of University of Helsinki students, there is a also team Aalto university. The teams are going to train together and share all the information.
+This year we are running two teams: One for the SCC@SC24 (Team Löyly) and one for the SCC@ISC25. Team Löyly will be the first ever Finnish team to compete in an on-site SCC in Atlanta in November 2024. For the SCC@ISC25 there will in fact be two teams applying from Finland: In addition to our team of University of Helsinki students, there is a also team from Aalto university. The teams are going to train together and share all the information.
 
 For the ISC25 competition we are leveraging all the experience gathered in the previous successful SCC campaigns and the close collaboration between the two Finnish teams. We are confident that both teams deserve slots in the competition and will do well!
 
@@ -14,7 +14,7 @@ For the ISC25 competition we are leveraging all the experience gathered in the p
 
 ## Students 
 
-All the students study at the University of Helsinki. 
+All the students are from the University of Helsinki. 
 
 ### Team captain: Mr. Julius Kiuru
 
@@ -46,7 +46,7 @@ HPC is a field that will allow me to apply my theoretical knowledge and skills i
 
 I have strong mathematical foundation, and good programming skills in Python and C++ coupled, with competent bash and Linux tinkering skills. I have studied recently relevant courses such as Big Data Platforms, where core concepts of HPC are discussed, such as the architectures of supercomputers and their performance. I am also studying Programming Parallel Computers, which is about optimizing C++ code to run parallelly, multi-threaded or on GPUs, using OpenMP and CUDA.
 
-I am interested in computational mathematics and numerical methods, f.e. solving ~100 problems in project Euler and doing other hobby projects in the same spirit. I was born in Salamanca, Spain. I moved to Finland on 2020 to study what I enjoy the most, luckily the full degree was available in English. Most of my university friends are somehow international, which has been culturally eye-opening. I learned some Finnish during these years. Some things I often enjoy are puzzles and games, but also playing the French horn and doing sports, mainly ice skating and tennis.
+I am interested in computational mathematics and numerical methods, e.g. solving ~100 problems in project Euler and doing other hobby projects in the same spirit. I was born in Salamanca, Spain. I moved to Finland on 2020 to study what I enjoy the most, luckily the full degree was available in English. Most of my university friends are somehow international, which has been culturally eye-opening. I learned some Finnish during these years. Some things I often enjoy are puzzles and games, but also playing the French horn and doing sports, mainly ice skating and tennis.
 
 ### Mr. Timo Mäkelä
 
@@ -73,7 +73,7 @@ HPC is a crucial part in my work, which relies heavily on fast and efficient sim
 I am research trainee at VTT Technical Research Centre of Finland, where I have been involved in high-level programming (Python & MATLAB), FEM simulations (Abaqus & COMSOL), and data analysis (numpy, scipy, OpenCV, etc.). I have been also teaching assistant at Aalto University in courses on stochastic modelling (Python), machine learning (scikit-learn & Pytorch), optimization (Julia), and numerical methods in engineering (MATLAB).
 During my work I have been running software on various HPC systems, including Puhti, Mahti and Allas at CSC, and Triton cluster at Aalto University. I have completed several courseworks in computational science, such as Scientific Computing, Deep Learning, Computational Models in Stochastics, Computational Inverse Problems, etc.
   
-I moved from Ho Chi Minh City, Vietnam to Finland in 2021 to pursue a degree in Computational Engineering at Aalto University. After my bachelor's studies, I reapplied and switched to University of Helsinki for a master's in computational physics, hence I'm one of the few physics students in the department with a background in engineering. During my free time, I enjoy reading historical documentaries (my favorites is Vietnam war), playing badminton, and trail running during the summer.
+I moved from Ho Chi Minh City, Vietnam to Finland in 2021 to pursue a degree in Computational Engineering at Aalto University. After my bachelor's studies, I reapplied and switched to University of Helsinki for a master's in computational physics, hence I'm one of the few physics students in the department with a background in engineering. During my free time, I enjoy reading historical documentaries (my favorite is Vietnam war), playing badminton, and trail running during the summer.
 
 ### Mr. Jens Helin
 
@@ -142,16 +142,16 @@ I have the overall responsibility of CSC's SCC activities and take care of the r
 
 # Why are we participating 
 
-Right from the start, since early 2022, participating student cluster competition in person and experiencing the conference has been our main goal. Now, by building on the effort and experience gathered during the IndySCC competitions in 2022 and 2023 and the on-site SCC this year,  we are confident to have what it takes to make it in the in-person event also in ISC. 
+Right from the start, since early 2022, participating student cluster competition in person and experiencing the conference has been our main goal. Now, by building on the effort and experience gathered during the IndySCC competitions in 2022 and 2023 and the on-site SCC@SC this year,  we are confident to have what it takes to make it in the in-person event also in ISC25. 
 
 Our team consists of students from the University of Helsinki, and we want to be the first Finnish team competing at ISC’s student cluster competition. The team members are very interested in various aspects of high-performance computing, ranging from scientific software development and performance optimization to system administration and cluster management. All the team members see HPC skills as important assets in their studies, thesis projects and future careers.
 
 The LUMI supercomputer has increased the need for skilled HPC experts both in Finnish research groups and at CSC.
-With the student cluster competition bids and the related training CSC wants to increase the visibility of HPC towards university students and present it as an exciting career possibility. Additionally, CSC's aim is to use the SCC as a vehicle to expose students to the ISC conference where they can meet fellow students and network with professionals from vendors and computing centers. Some members in our earlier teams have already been offered positions in research groups through contacts created during the SCC activities.
+With the student cluster competition bids and the related training CSC wants to increase the visibility of HPC towards university students and present it as an exciting career possibility. Additionally, CSC's aim is to use the SCC as a vehicle to expose students to the ISC conference where they can meet fellow students and network with professionals from vendors and computing centers. Some members in our earlier teams have already been hired research groups through contacts created during the SCC activities.
 
 # Why do we believe that we have put together a winning team
 
-Our team is very competitive and motivated. The team advisors have a deep knowledge about HPC, and the student members have already lots of experience via their university studies. 
+Our team is very competitive and motivated. The team advisors have a deep knowledge about HPC, and the student members have already lots of experience in programming, HPC, Linux etc. via their university studies. 
 
 When preparing for the competition we will follow the curriculum which has proven to be successful in the previous events. Training includes the following subjects:
 - Introduction to HPC and CPU architectures
@@ -162,9 +162,9 @@ When preparing for the competition we will follow the curriculum which has prove
 - Data-analysis
 - Performance tuning of scientific software
 
-In large extent, the training will be carried out in collaboration with the other Finnish team from Aalto university.
+In large extent, the training will be carried out in collaboration with the other Finnish team from Aalto university, which will benefit both teams.
 
-The team has access to an extensive network of HPC experts in different fields. We get training and feedback not only from our excellent advisors, but also from experts at HPE, AMD and Intel, and several domain specialists working at CSC.
+The team has access to an extensive network of CSC's HPC experts in different fields. We get training and feedback not only from our excellent advisors, but also from experts from CSC's supercomputer vendors, and several computational science specialists working at CSC.
 
 Since our first bid in 2022, we have closely collaborated with HPE who has been our hardware sponsor and arranged remote access to test systems similar to the competition hardware. For SCC@ISC2025 we'll collaborate with the vendor who wins the contract for the Finnish national supercomputer infrastructure renewal. 
 
@@ -174,13 +174,13 @@ Our team comprises of three basic scientific disciplines: computer science, phys
 
 # Why will our team work well together 
 
-We started some group building activities already during the joint interview of applicants. During the kick-off meeting, we already saw effective group work and great potential for further collaboration. The intensive training period in spring 2025 will increase the cohesion between the team members, and fine tune the cooperation and managing the various tasks and roles. The team advisors bring continuity already from 2022. Many team members also share hobbies such as playing musical instruments and different games. 
+We started some group building activities already during the joint interview of applicants. During the kick-off meeting, we already witnessed effective group work and great potential for further collaboration. The intensive training period in spring 2025 will increase the cohesion between the team members, and fine tune the cooperation and managing the various tasks and roles. The team advisors bring continuity already from 2022. Many team members also share hobbies such as playing musical instruments and different games. 
 
 # What experience our team members have 
 
-Our teams competed at IndySCC both in 2022 and 2023 with a great track record. In 2022, the team came in third overall out of ten competing teams, and won the HPL Hero run challenge. The 2023 IndySCC team managed to improve this and placed 2nd overall! For 2024 our team was accepted to the in-person competition in SCC@SC24 in Atlanta. 
+Our teams competed at IndySCC both in 2022 and 2023 with a great track record. In 2022, the team came in third overall out of ten competing teams, and won the HPL Hero run challenge. The 2023 IndySCC team managed to improve this and was placed 2nd overall! For 2024 our team has been accepted to the in-person competition in SCC@SC24 in Atlanta. 
 
-As each team member mentioned in the biography section of this proposal, together we have extensive experience in a multitude of fields related to scientific computing and HPC. Some have worked as research or teaching assistants and almost everybody has used CSC's supercomputers and/or university clusters during their studies. Additionally, a few of the team members are familiar with Linux system administration.
+As each team member mentioned in the biography section of this proposal, together we have extensive experience in a multitude of fields related to physics, computer science, data science and AI, scientific computing and HPC. Some have worked as research or teaching assistants and almost everybody has used CSC's supercomputers and/or university clusters during their studies. Additionally, a few of the team members are familiar with Linux system administration.
 
 Lastly we would like to add, that the team members have first hand experience with several scientific computing applications (e.g. Abaqus, COMSOL, FHIaims, GROMACS to name a few) through their work as research assistants and trainees.
 
@@ -190,7 +190,7 @@ We have clear tasks planned for the different team members based on our interest
 
 Some team members will take on the “system administrator” role and will manage the cluster’s general administration, including installing new software, managing the job scheduling programs etc., while the rest focus more on the applications. For redundance, each team member will know the basics of running each application and benchmark in the competition, but before the event we will divide the team into groups, with each specializing in one of the components. 
 
-For HPL, we are planning to use vendor-provided binaries, as these give normally the best results. We will pracitce with all the applications in advance and look for optimal settings. Our usual workflow is to tune the following in each application: 
+For HPL, we are planning to use vendor-provided binaries, as these give normally the best results. We will practice with all the applications in advance and look for optimal parameters. Our usual workflow is to tune the following in each application: 
 
 - Build options (compilers and flags, MPI and BLAS libraries *etc.*) 
 - Runtime options (affinity, OpenMP threading) 
@@ -201,7 +201,7 @@ This approach will be naturally modified according to the specific tasks and app
 
 # Commitment of the institution to educating the broader student community about the usefulness and the accessibility of High-Performance Computing
 
-CSC is a supercomputing center and hence user support and training are essential components of the activity. The comprehensive training curriculum includes code parallelization, performance analysis and optimization, GPU programming, CSC programming environment and so on. In addition to preparing training material for researchers and advanced users CSC also targets less experienced users like undergraduate and high school students and even general public. For example, CSC
+CSC is a supercomputing center and hence user support and training are essential components of the activities. The comprehensive training curriculum includes code parallelization, performance analysis and optimization, GPU programming, CSC programming environment and so on. In addition to preparing training materials for researchers and advanced users CSC also targets less experienced users like undergraduate and high school students and even general public. For example, CSC
 
 - has developed an online introductory course about HPC for general public and especially high school and freshman students: https://edukamu.fi/elements-of-supercomputing.
 - has developed an online introduction to CSC computing environment: https://ssl.eventilla.com/csccompenvselflearn
@@ -215,15 +215,15 @@ CSC has fielded SCC teams since 2022 and sees the competition as an important to
 
 In training there is a de-facto division of responsibilities between CSC and Finnish universities; while the universities offer the basic training, CSC takes care of the more advanced subjects in HPC programming and in HPC system usage.
 
-The most important part of CSC's HPC education curriculum is the traditional summer school which has been organized already in 12 years. The summer schools gathers international participants to a beautiful lakeside setting for a 10 day boot camp of HPC and GPU programming together with evening sports activities, networking and fun. This year we reached a new record of 40 participants.
+The most important part of CSC's HPC education curriculum is the traditional summer school which has been organized already for 12 years. The summer schools gathers international participants to a beautiful lakeside setting for a 10 day boot camp of HPC and GPU programming together with evening sports activities, networking and fun. This year we reached a new record of 40 participants.
 
 University of Helsinki has a number of high-profile computational science groups. Accordingly, scientific computing and HPC are an important part of the curriculum. In addition to basic related courses there are a number MSc programs in computational science. Finally, University of Helsinki will grant study credits to the team based on the training and competition.
 
 # HPC cluster availability for practicing benchmarks
 
-In addition to CSC's Puhti and Mahti supercomputers the team has access to LUMI in their training. We'll have remote access to the cluster provided by our hardware sponsor.
+In addition to CSC's Puhti and Mahti supercomputers and Pouta cloud platform the team has access to LUMI in their training. Moreover we'll have remote access to the cluster provided by our hardware sponsor.
 
-Moreover, there is a cluster at the University of Helsinki available for students.
+University of Helsinki has a cluster available for the students as well.
 
 Thus, we are able to practice the benchmarks on systems ranging from a handful of nodes to the current #5 system in the world, with a variety of architectures (Intel and AMD CPUs, Nvidia and AMD GPUs) and in various programming environments.
 
