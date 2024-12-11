@@ -28,5 +28,5 @@ This repository contains the training materials and other relevant documents for
 - [2022 GitHub](https://github.com/cschpc/student-cluster-competition-2022)
 - [2023 Github](https://github.com/cschpc/student-cluster-competition-2023)
 - [2024 Github](https://github.com/cschpc/student-cluster-competition-2024)
-- [Archived competition tasks](https://drive.google.com/drive/folders/1pouLBmB0p49fvyaN30T1jFP7VT5kMbQR?usp=sharing)
+- [Archived competition tasks & documents](https://kannu.csc.fi/s/aNyCw9Hxa9bpzM5)
 - [Team Norppa's instagram](https://www.instagram.com/team.norppa/)
