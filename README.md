@@ -18,7 +18,7 @@ This repository contains the training materials and other relevant documents for
 |---|---|---|---|
 |Week 43|24.10.|Team member introductions, filling application|[Link](Training/01-kickoff/README.md)|  
 |Before the training|-|Prerequisite material|[Link](Training/00-prerequisite-material/README.md)|
-|Week 1-2|-|Parallel computing concepts|Link|
+|15.1.|-|Parallel computing concepts|Link|
 |Week TBD|-|Application 1 (OpenMX)|Link|
 |Week TBD|-|Application 2 (Code_saturn)|Link|
 |Week TBD|-|Application 3 (SeisSol)|Link|
@@ -32,6 +32,15 @@ This repository contains the training materials and other relevant documents for
 
 - [ISC High performance conference site](https://isc-hpc.com/)
 - [Student cluster competition, official site](https://www.hpcadvisorycouncil.com/events/student-cluster-competition/)
+
+## Self-learning material
+
+- [Elements of supercomputing](https://edukamu.fi/elements-of-supercomputing)
+- [CSC environment tutorial](https://e-learn.csc.fi/course/view.php?id=76)
+- [Triton tutorial](https://scicomp.aalto.fi/triton/#tutorials)
+- Git tutorials
+  - https://coderefinery.github.io/git-intro/
+  - https://coderefinery.github.io/git-collaborative/
 
 ## Past team GitHub sites and tasks
 
