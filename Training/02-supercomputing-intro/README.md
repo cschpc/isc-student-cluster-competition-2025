@@ -1,13 +1,14 @@
 # SCC Training 02 - Basics of supercomputing
 
 Date 15.1.2025
+Slides: https://kannu.csc.fi/s/XafT6wjNjo9W9Sw
 
 ## Agenda
 
 |Time|Topic|
 |---|---|
 |13:00|Training and competition schedule|
-|13:30|Parallel computing concepts|
+|13:30|Parallel computing concepts and supercomputer usage|
 |14:30|Coffee break|
 |14:45|Hands-on session|
 
@@ -29,5 +30,5 @@ sbatch --reservation=scc my_job_script.sh
 ## Homework
 
 Carry out the exercises in another supercomputer than Mahti (e.g. Puhti or
-Triton).
+Triton, you may even try LUMI).
 
