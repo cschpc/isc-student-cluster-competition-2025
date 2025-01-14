@@ -18,7 +18,7 @@ This repository contains the training materials and other relevant documents for
 |---|---|---|---|
 |Week 43|24.10.|Team member introductions, filling application|[Link](Training/01-kickoff/README.md)|  
 |Before the training|-|Prerequisite material|[Link](Training/00-prerequisite-material/README.md)|
-|15.1.|-|Parallel computing concepts|Link|
+|15.1.|-|Parallel computing concepts|[Link](Training/02-supercomputing-intro)|
 |Week TBD|-|Application 1 (OpenMX)|Link|
 |Week TBD|-|Application 2 (Code_saturn)|Link|
 |Week TBD|-|Application 3 (SeisSol)|Link|
