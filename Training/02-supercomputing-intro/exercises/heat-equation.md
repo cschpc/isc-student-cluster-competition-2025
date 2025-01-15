@@ -3,6 +3,9 @@
 In this exercise you should build a simple three dimensional heat equation solver,
 and investigate its performance in Mahti.
 
+You should be working within the "scratch" directory in Mahti. The project
+directories can be found with the `csc-workspaces` command.
+
 Download ("clone") the code with
 ```
 git clone https://github.com/cschpc/heat-equation.git
