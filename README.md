@@ -33,6 +33,11 @@ This repository contains the training materials and other relevant documents for
 - [ISC High performance conference site](https://isc-hpc.com/)
 - [Student cluster competition, official site](https://www.hpcadvisorycouncil.com/events/student-cluster-competition/)
 
+## Miscellaneous documentation
+
+- [Using supercomputers](documentation/supercomputer-usage.md)
+- [Slurm tips](documentation/slurm.md)
+
 ## Self-learning material
 
 - [Elements of supercomputing](https://edukamu.fi/elements-of-supercomputing)
