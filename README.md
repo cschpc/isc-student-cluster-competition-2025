@@ -37,6 +37,7 @@ This repository contains the training materials and other relevant documents for
 
 - [Using supercomputers](documentation/supercomputer-usage.md)
 - [Slurm tips](documentation/slurm.md)
+- [Performance analysis](documentation/profiling.md)
 
 ## Self-learning material
 
