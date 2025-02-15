@@ -14,19 +14,19 @@ This repository contains the training materials and other relevant documents for
 ## Training schedule
 
 
-|Week|Date|Topic|Link to content|
-|---|---|---|---|
-|Week 43|24.10.|Team member introductions, filling application|[Link](Training/01-kickoff/README.md)|  
-|Before the training|-|Prerequisite material|[Link](Training/00-prerequisite-material/README.md)|
-|15.1.|-|Parallel computing concepts|[link](training/02-supercomputing-intro)|
-|5.2.|-|Application 1 (OpenMX)|[link](training/03-openmx)|
-|26.2.|-|Application 2 (Code_saturn)|Link|
-|5.3.|-|Application 3 (SeisSol)|Link|
-|19.3.|-|Coding challenge (ICON)|Link|
-|Early April - May||Virtual competition||
-|Week TBD|-|Microbenchmarks|Link|
-|Week TBD|-|Mystery application|Link|
-|Week TBD|-|System administration|Link|
+|Date|Topic|Link to content|
+|---|---|---|
+|24.10.|Team member introductions, filling application|[Link](Training/01-kickoff/README.md)|  
+|Before the training|Prerequisite material|[Link](Training/00-prerequisite-material/README.md)|
+|15.1.|Parallel computing concepts|[Link](Training/02-supercomputing-intro)|
+|5.2.|Application 1 (OpenMX)|[Link](Training/03-openmx)|
+|26.2.|Application 2 (SeisSol)|Link|
+|5.3.|Application 3 (Code_Saturne)|Link|
+|19.3.|Coding challenge (ICON)|Link|
+|Early April - May|Virtual competition||
+|Date TBD|Microbenchmarks|Link|
+|Date TBD|Mystery application|Link|
+|Date TBD||System administration|Link|
 
 ## Official ISC Student cluster competition links
 
