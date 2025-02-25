@@ -40,6 +40,7 @@ Prepare a report with the following information:
 
 1. Run SeisSol with the tpv33 test case with the following tests:
     - On a single node on Mahti's CPU partition:
+        - Set the environment variable SEISSOL_COMMTHREAD to 0 or 1 in your job script. Does it affect the performance?
         - Run it on different combinations of MPI tasks and OMP threads (e.g. 8x16, 4x32, 32x4,...). What combination gives you the best results?
         - Try setting the environment values "OMP_PLACES" and "OMP_PROC_BIND" to different possible values. What values give you the best performance? (See the [OpenMP documentation](https://www.openmp.org/spec-html/5.0/openmpse53.html) for ideas)
     - Run the test on two, and then four nodes:
