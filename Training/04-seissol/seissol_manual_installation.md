@@ -15,15 +15,17 @@ Enable the modules with:
 
 `module load gcc/11.2.0 openmpi/4.1.2 hdf5/1.10.7-mpi netcdf-c/4.8.1 python-data/3.10-24.04 cmake/3.21.4`
 
-When compiling manually, it is helpful to create a separate installation folder, where you install the required (+ some optional) dependencies and eventually SeisSol. Choose where you will initialize the folder, and specify the environment variable `$SEISSOL_PREFIX` to point to it:
+When compiling manually, it is helpful to create a separate installation folder, where you install the required (+ some optional) dependencies and eventually SeisSol. Choose where you will initialize this folder, and specify the environment variable `$SEISSOL_PREFIX` to point to it:
 
-`export SEISSOL_PREFIX=/scratch/project_2012524/$USER/seissol_install`
+```
+mkdir -p /scratch/project_2012524/$USER/seissol_install
+export SEISSOL_PREFIX=/scratch/project_2012524/$USER/seissol_install
+```
 
 If you're installing things manually, specifying also the following environment variables will make the process much easier:
 
 ```
 export SEISSOL_BASE=$TMPDIR/seissol_base
-
 mkdir -p $SEISSOL_BASE
 
 export PATH=$SEISSOL_PREFIX/bin:$PATH
@@ -42,7 +44,7 @@ export FC=mpifort
 ```
 
 **Modify the first line** to match where you want to compile your programs. 
-In the example above, I am building all source codes in Mahti's $TMPDIR disk area, and installing all executables, libraries and headers into the "$SEISSOL_PREFIX" folder, under my username.
+In the example above, I am compiling all source codes in Mahti's $TMPDIR disk area, and installing all executables, libraries and headers into the "$SEISSOL_PREFIX" folder, under my username.
 
 *Pay special attention to the last three lines.* We want to make sure that the C, C++ and Fortran compilers we will pass by default to CMake will point to the MPI compiler wrappers on our system. 
 The other variables are included to make sure that CMake knows where to look for the dependencies that we will start installing in the next steps.
@@ -148,11 +150,11 @@ Create the makefile through CMake with the options of your choosing:
 And compile with make (with a chosen amount of cores):  
 `make -j <number of cores>`
 
-Check the [documentation](https://seissol.readthedocs.io/en/latest/build-seissol.html#build-seissol) for any modifications, or ask one of the advisors for help in choosing. 
+Check the [documentation](https://seissol.readthedocs.io/en/latest/build-seissol.html#build-seissol) for any modifications in the CMake options, or ask one of the advisors for help in choosing. 
 
 **Note!** The architecture of Mahti's AMD Rome 7H12 would correspond to the "rome" option with SeiSsol's `-DHOST_ARCH` cmake option, however choosing it leads to cryptic errors in my brief testing. I would advice against using the argument.
 
-When the compilation goes through, the first step is to check if seissol runs. If all worked out, you will see two SeisSol executables. One of them is a so-called "proxy" version that is used for testing, and the other is the one that you should use for normal execution.  
+When the compilation goes through, the first step is to check if seissol runs. If everything worked out, you will see two SeisSol executables. One of them is a so-called "proxy" version that is used for testing, and the other is the one that you should use for normal execution.  
 Try a short sequential run with the proxy version to ensure that seissol works by running it with the parameters: 
 
 `SeisSol_proxy_YOUR_CONFIGURATION 1000 10 all`
