@@ -20,7 +20,7 @@ This repository contains the training materials and other relevant documents for
 |Before the training|Prerequisite material|[Link](Training/00-prerequisite-material/README.md)|
 |15.1.|Parallel computing concepts|[Link](Training/02-supercomputing-intro)|
 |5.2.|Application 1 (OpenMX)|[Link](Training/03-openmx)|
-|26.2.|Application 2 (SeisSol)|Link|
+|26.2.|Application 2 (SeisSol)|[Link](Training/04-seissol)|
 |5.3.|Application 3 (Code_Saturne)|Link|
 |19.3.|Coding challenge (ICON)|Link|
 |Early April - May|Virtual competition||

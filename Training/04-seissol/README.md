@@ -1,0 +1,59 @@
+# SCC Training 04 - SeisSol (At Aalto)
+
+Date 5.2.2025  
+
+## Agenda
+
+|Time|Topic|
+|---|---|
+|13:00|Homework & discussion about openmx|
+|13:30|Brief introduction about package managers|
+|14:00|Brief look at SeisSol and how to install it|
+|14:30|MPI Tracing on OpenMX|
+|14:45|Break|
+|15:00|Hands-on exercises|
+|16:00|Training concluded|
+
+## Exercise instructions:
+
+In this session, you will work as a team to install SeisSol on Mahti both manually, and by using Spack.  
+You will then run the "TPV33" test case for SeisSol on different node counts.  
+
+1. Start by installing SeisSol:
+    - [Manually installing SeisSol](./seissol_manual_installation.md)
+    - [Installing SeisSol with Spack]()
+2. Download and run the TPV33 test case
+    - Go to the ISC SeisSol instructions at https://hpcadvisorycouncil.atlassian.net/wiki/spaces/HPCWORKS/pages/3278569473/Getting+Started+with+SeisSol+for+ISC25+SCC
+    - Download the "pre-computed" test cases as instructed 
+    - See the SeisSol documentation for instructions on how to run it: https://seissol.readthedocs.io/en/latest/build-run.html#starting-seissol
+    - Then, run the test case on a single (full) node and examine the output that it produces
+    - Try running it both without any OMP threading and with threading enabled
+3. If time permits:
+    - Run tpv33 on two and four nodes
+    - Test running it "purely" with all cores reserved to MPI and only 1 thread per task. How does the performance change when compared to a threaded run? 
+
+## Homework
+
+### Benchmarking homework for SeisSol
+
+Prepare a report with the following information:
+
+1. Run SeisSol with the tpv33 test case with the following tests:
+    - On a single node on Mahti's CPU partition:
+        - Run it on different combinations of MPI tasks and OMP threads (e.g. 8x16, 4x32, 32x4,...). What combination gives you the best results?
+        - Try setting the environment values "OMP_PLACES" and "OMP_PROC_BIND" to different possible values. What values give you the best performance? (See the [OpenMP documentation](https://www.openmp.org/spec-html/5.0/openmpse53.html) for ideas)
+    - Run the test on two, and then four nodes:
+        - Document the performance results
+        - Do the MPI task/OMP thread combinations behave differently? What options give you the best results?
+2. Run libmpitrace on the TPV33 case on 1, 2 and 4 nodes
+    - Which three MPI calls take the most amount of time? 
+    - How much time is spent in communication?
+
+Submission deadline: Present in the next training (5.3.)
+
+Additional links:
+
+- SeisSol documentation: https://seissol.readthedocs.io/en/latest/index.html
+- Spack documentation: https://spack.io/
+
+
