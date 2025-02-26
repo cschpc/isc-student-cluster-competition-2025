@@ -152,6 +152,9 @@ cmake -DNUMA_AWARE_PINNING=ON -DCMAKE_BUILD_TYPE=Release -DASAGI=ON -DPRECISION=
 And compile with make (with a chosen amount of cores):  
 `make -j <number of cores>`
 
+And install it into $SEISSOL_PREFIX:  
+`make install`
+
 Check the [documentation](https://seissol.readthedocs.io/en/latest/build-seissol.html#build-seissol) for any modifications in the CMake options, or ask one of the advisors for help in choosing. 
 
 **Note!** The architecture of Mahti's AMD Rome 7H12 would correspond to the "rome" option with SeiSsol's `-DHOST_ARCH` cmake option, however choosing it leads to cryptic errors in my brief testing. I would advice against using the argument.
