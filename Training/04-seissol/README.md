@@ -1,6 +1,7 @@
 # SCC Training 04 - SeisSol (At Aalto)
 
 Date 5.2.2025  
+Slides: [https://kannu.csc.fi/s/Yxk8jfsxgdGamx7](https://kannu.csc.fi/s/Yxk8jfsxgdGamx7)
 
 ## Agenda
 
@@ -8,10 +9,10 @@ Date 5.2.2025
 |---|---|
 |13:00|Homework & discussion about openmx|
 |13:30|Brief introduction about package managers|
-|14:00|Brief look at SeisSol and how to install it|
-|14:30|MPI Tracing on OpenMX|
-|14:45|Break|
-|15:00|Hands-on exercises|
+|13:45|Brief look at SeisSol and how to install it|
+|14:30|Coffee break|
+|14:45|Demo on Spack|
+|15:00|Installing with Spack, Demo on libmpitrace|
 |16:00|Training concluded|
 
 ## Exercise instructions:
@@ -56,5 +57,5 @@ Additional links:
 
 - SeisSol documentation: https://seissol.readthedocs.io/en/latest/index.html
 - Spack documentation: https://spack.io/
-
+- Libmpitrace instructions: [/documentation/profiling.md](/documentation/profiling.md)
 
