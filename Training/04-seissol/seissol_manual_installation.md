@@ -145,7 +145,9 @@ Go into the SeisSol folder and create a build directory:
 `cd SeisSol; mkdir -p build; cd build`
 
 Create the makefile through CMake with the options of your choosing:  
-`cmake -DNUMA_AWARE_PINNING=ON -DCMAKE_BUILD_TYPE=Release -DASAGI=ON -DPRECISION=double -DORDER=4 -DEQUATIONS=elastic -DGEMM_TOOLS_LIST=Eigen -DCMAKE_INSTALL_PREFIX=$SEISSOL_PREFIX ..`
+```
+cmake -DNUMA_AWARE_PINNING=ON -DCMAKE_BUILD_TYPE=Release -DASAGI=ON -DPRECISION=double -DORDER=4 -DEQUATIONS=elastic -DGEMM_TOOLS_LIST=Eigen -DCMAKE_INSTALL_PREFIX=$SEISSOL_PREFIX ..
+```
 
 And compile with make (with a chosen amount of cores):  
 `make -j <number of cores>`
