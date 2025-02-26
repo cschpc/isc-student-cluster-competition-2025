@@ -22,7 +22,6 @@ You will then run the "TPV33" test case for SeisSol on different node counts.
 
 1. Start by installing SeisSol:
     - [Manually installing SeisSol](./seissol_manual_installation.md)
-    - [Installing SeisSol with Spack]()
 2. Download and run the TPV33 test case
     - Go to the ISC SeisSol instructions at https://hpcadvisorycouncil.atlassian.net/wiki/spaces/HPCWORKS/pages/3278569473/Getting+Started+with+SeisSol+for+ISC25+SCC
     - Download the "pre-computed" test cases as instructed 
@@ -32,6 +31,8 @@ You will then run the "TPV33" test case for SeisSol on different node counts.
 3. If time permits:
     - Run tpv33 on two and four nodes
     - Test running it "purely" with all cores reserved to MPI and only 1 thread per task. How does the performance change when compared to a threaded run? 
+
+4. [Installing SeisSol with Spack](./seissol_manual_installation.md)
 
 ## Homework
 
