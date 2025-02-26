@@ -32,7 +32,7 @@ You will then run the "TPV33" test case for SeisSol on different node counts.
     - Run tpv33 on two and four nodes
     - Test running it "purely" with all cores reserved to MPI and only 1 thread per task. How does the performance change when compared to a threaded run? 
 
-4. [Installing SeisSol with Spack](./seissol_manual_installation.md)
+4. [Installing SeisSol with Spack](./seissol_spack_installation.md)
 
 ## Homework
 
@@ -40,7 +40,7 @@ You will then run the "TPV33" test case for SeisSol on different node counts.
 
 Prepare a report with the following information:
 
-1. Run SeisSol with the tpv33 test case with the following tests:
+1. Run SeisSol with the Turkey test case with the following tests:
     - On a single node on Mahti's CPU partition:
         - Set the environment variable SEISSOL_COMMTHREAD to 0 or 1 in your job script. Does it affect the performance?
         - Run it on different combinations of MPI tasks and OMP threads (e.g. 8x16, 4x32, 32x4,...). What combination gives you the best results?
@@ -52,7 +52,7 @@ Prepare a report with the following information:
     - Which three MPI calls take the most amount of time? 
     - How much time is spent in communication?
 
-Submission deadline: Present in the next training (5.3.)
+Submission deadline: Return to the advisors before the next training (Deadline 4.3.)
 
 Additional links:
 
