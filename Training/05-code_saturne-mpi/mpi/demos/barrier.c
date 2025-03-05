@@ -1,19 +1,24 @@
-#include <stdio.h>
 #include <mpi.h>
+#include <cstdio>
 
-int main(int argc, char *argv[])
+int main(int argc, char** argv)
 {
-  int size, rank;
-  MPI_Init(&argc, &argv);
-  MPI_Comm_size(MPI_COMM_WORLD, &size);
-  MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+    int rank, ntasks;
 
-  printf("Hello from rank %d of %d\n", rank, size);
+    MPI_Init(&argc, &argv);
 
-  fflush(stdout);
-  MPI_Barrier(MPI_COMM_WORLD);
+    MPI_Comm_size(MPI_COMM_WORLD, &ntasks);
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
-  printf("Hello again from rank %d\n", rank);
+    // Barrier can be used for ordered print
+    // Makes the code serial DO NOT use in real setups
+    for (int i=0; i < ntasks; i++) {
+      if (i == rank) {
+        printf("I am rank %d in the group of %d\n", rank, ntasks);
+        fflush(stdout);
+      }
+        MPI_Barrier(MPI_COMM_WORLD);
+    }
 
-  MPI_Finalize();
+    MPI_Finalize();
 }
