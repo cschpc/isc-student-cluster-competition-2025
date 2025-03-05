@@ -29,4 +29,12 @@ There is a reservation `scc` in Mahti (`sbatch --reservation=scc ...`)
 
 ## Homework
 
+1. Try to install **code_saturne** on your laptop with GUI enabled
+   - Required `PyQt5` dependency can be installed into virtual environment
+     with pip
+2. Go through the "Tiny test case" tutorial
+3. Try to copy the "Study" to Mahti and run the simulation via Slurm
+     - Some instructions on running **code_saturne** via Slurm can be found at 
+     https://docs.archer2.ac.uk/research-software/code-saturne/#running-parallel-code_saturne-jobs
+
 
