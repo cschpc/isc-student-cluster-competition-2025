@@ -1,7 +1,7 @@
 # SCC Training 05 - Code_Saturne, MPI (At CSC)
 
 Date 5.3.2025  
-Slides: 
+Slides: https://kannu.csc.fi/s/2x66k4kJnMibQ3G
 
 ## Agenda
 
