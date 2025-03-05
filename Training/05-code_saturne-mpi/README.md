@@ -19,8 +19,7 @@ Slides: https://kannu.csc.fi/s/2x66k4kJnMibQ3G
 There is a reservation `scc` in Mahti (`sbatch --reservation=scc ...`)
 
 1. Try to build **code_saturne** along the instructions at https://hpcadvisorycouncil.atlassian.net/wiki/spaces/HPCWORKS/pages/3177381916/Getting+Started+with+code_saturne+for+ISC25+SCC
-  - Build will fail (with gcc the reason is more obvious than with Intel), how could you fix that? Create a patch and add it to your team's git repository
-
+  - Note: v8.3 from git repository is broken (the build will fail) but the tarball provided by organizers is working (with gcc the reason for build failure with git version is more obvious than with Intel).
 2. Implement a MPI parallel sum starting from the [skeleton code](mpi/exercises/sum.cpp).
   - Initialize the data with rank 0
   - Use `MPI_Scatter` for distributing data
