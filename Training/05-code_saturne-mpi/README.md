@@ -9,7 +9,7 @@ Slides: https://kannu.csc.fi/s/2x66k4kJnMibQ3G
 |---|---|
 |13:00|Homework discussion|
 |13:30|Discussion about competition strategies|
-|14:00|Brief look Code_saturne at and how to install it|
+|14:00|Brief look on Code_saturne and how to install it|
 |14:30|Coffee break|
 |14:45|Brief introduction to MPI|
 |16:30|Training concluded|
@@ -29,12 +29,16 @@ There is a reservation `scc` in Mahti (`sbatch --reservation=scc ...`)
 
 ## Homework
 
-1. Try to install **code_saturne** on your laptop with GUI enabled
+1. Discuss distribution of tasks within your team and document it in your git
+   repository
+2. Make sure your build instructions, scripts, run settings etc. so far are in
+   the git repository   
+
+3. Try to install **code_saturne** on your laptop with GUI enabled
    - Required `PyQt5` dependency can be installed into virtual environment
      with pip
-2. Go through the "Tiny test case" tutorial
-3. Try to copy the "Study" to Mahti and run the simulation via Slurm
+4. Go through the "Tiny test case" tutorial
+5. Try to copy the "Study" to Mahti and run the simulation via Slurm
      - Some instructions on running **code_saturne** via Slurm can be found at 
      https://docs.archer2.ac.uk/research-software/code-saturne/#running-parallel-code_saturne-jobs
-
 
