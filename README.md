@@ -22,7 +22,7 @@ This repository contains the training materials and other relevant documents for
 |5.2.|Application 1 (OpenMX)|[Link](Training/03-openmx)|
 |26.2.|Application 2 (SeisSol)|[Link](Training/04-seissol)|
 |5.3.|Application 3 (Code_Saturne and MPI)|[Link](Training/05-code_saturne-mpi)|
-|19.3.|Coding challenge (ICON)|Link|
+|25.3.|Coding challenge (ICON)|Link|
 |Early April - May|Virtual competition||
 |Date TBD|Microbenchmarks|Link|
 |Date TBD|Mystery application|Link|
