@@ -21,7 +21,7 @@ This repository contains the training materials and other relevant documents for
 |15.1.|Parallel computing concepts|[Link](Training/02-supercomputing-intro)|
 |5.2.|Application 1 (OpenMX)|[Link](Training/03-openmx)|
 |26.2.|Application 2 (SeisSol)|[Link](Training/04-seissol)|
-|5.3.|Application 3 (Code_Saturne and MPI)|[Link](05-code_saturne-mpi)|
+|5.3.|Application 3 (Code_Saturne and MPI)|[Link](Training/05-code_saturne-mpi)|
 |19.3.|Coding challenge (ICON)|Link|
 |Early April - May|Virtual competition||
 |Date TBD|Microbenchmarks|Link|
