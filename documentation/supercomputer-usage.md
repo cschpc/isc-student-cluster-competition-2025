@@ -94,6 +94,25 @@ srun myexe
 
 ## Levante
 
+[Levante user guide](https://docs.dkrz.de/doc/levante/)
+
+- Non-hierarchical "TCL" modules
+  - No `spider` command, `avail` shows all available modules
+- Available compilers:
+    - Intel (recommended)
+    - GNU
+    - NVIDIA HPC SDK (especially for GPU codes)
+- Available MPI libraries:
+    - OpenMPI
+    - Intel
+
+- Slurm configuration
+   - Simultaneous multithreading is enabled by default, disable by explicit
+     `--hint=nomultithread` "#SBATCH" or "srun" option. (most HPC workloads
+     perform worse with SMT).
+
+- 
+
 ## Bridges-2
 
 ## Triton
