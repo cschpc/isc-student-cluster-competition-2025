@@ -25,13 +25,18 @@ int main(int argc, char *argv[])
         y[i] = cos((double)i) * 1.1;
     };
 
+
+    auto policy = std::execution::par_unseq;
+
     // Measure performance
     using clock = std::chrono::high_resolution_clock;
     auto t0 = clock::now();
+    auto start = std::views::iota(0);
     for (size_t n = 0; n < nit; n++) {
-      for (size_t i = 0; i < nelem; i++) {
+      std::for_each_n(policy, start.begin(), nelem, 
+        [=, &x, &y](size_t i) {
           y[i] += a * x[i];
-      }
+        });
     }
 
     // Calculate checksum 

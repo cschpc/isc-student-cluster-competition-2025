@@ -28,10 +28,13 @@ int main(int argc, char *argv[])
     // Measure performance
     using clock = std::chrono::high_resolution_clock;
     auto t0 = clock::now();
+//    auto kernel = [=, x = x.data(), y = y.data()](size_t i) {
+    auto kernel = [=, &x, &y](size_t i) {
+        y[i] += a * x[i];
+    };
+    auto start = std::views::iota(0);
     for (size_t n = 0; n < nit; n++) {
-      for (size_t i = 0; i < nelem; i++) {
-          y[i] += a * x[i];
-      }
+      std::for_each_n(start.begin(), nelem, kernel);
     }
 
     // Calculate checksum 
