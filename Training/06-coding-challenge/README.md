@@ -2,6 +2,8 @@
 
 Date 25.3.2025  
 
+[Slides](https://kannu.csc.fi/s/rs2asWMAne3o6ap)
+
 ## Agenda
 
 |Time|Topic|
