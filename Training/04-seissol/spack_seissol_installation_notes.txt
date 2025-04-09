@@ -1,0 +1,83 @@
+#clone the v0.23 version of spack
+git clone -c feature.manyFiles=true --branch=releases/v0.23 --depth=2 https://github.com/spack/spack.git
+
+. spack/share/spack/setup-env.sh
+
+#auto complete spack commands
+. spack/share/spack/spack-completion.bash
+
+spack compilers
+
+#check if there are any conflicts in the spack version used to set up the config/compilers
+#should use the same spack version for everything
+spack config blame config
+spack config blame compilers
+
+spack compiler find
+spack external find
+
+#get more compilers
+module load gcc/13.2.1-p20240113
+module load openmpi/5.0.3-gcc13.2.1
+spack external find
+spack compiler find
+
+#edit the seissol package to be installed to be the correct version
+spack edit seissol
+
+#add this version
+    version(
+        "1.3.1", tag="v1.3.1", commit="9d35b989749d031132c8820b45b003ecc00e985a", submodules=True
+    )
+    
+spack config edit compilers
+
+#edit the gcc/13.2.1 compiler to be
+- compiler:
+    spec: gcc@=13.2.1
+    paths:
+      cc: /opt/packages/gcc/v13.2.1-p20240113/b2rm/bin/gcc
+      cxx: /opt/packages/gcc/v13.2.1-p20240113/b2rm/bin/g++
+      f77: /opt/packages/gcc/v13.2.1-p20240113/b2rm/bin/gfortran
+      fc: /opt/packages/gcc/v13.2.1-p20240113/b2rm/bin/gfortran
+    flags: {}
+    operating_system: rhel8
+    target: x86_64
+    modules: []
+    environment:
+      prepend_path:
+        LD_LIBRARY_PATH: /opt/packages/gcc/v13.2.1-p20240113/b2rm/lib64
+    extra_rpaths:
+    - /opt/packages/gcc/v13.2.1-p20240113/b2rm/lib64
+
+spack config edit packages
+
+#add openmpi and cuda to the external packages
+# LD_LIBRARY_PATH points to the directory where libcudart is
+# can be shown with module show cuda/11.7.1
+# openmpi/5.0.3-gcc13.2.1 version has cuda dependency -> needs cuda to work even if it does not use cuda
+openmpi:
+  externals:
+  - spec: openmpi@5.0.3 %gcc@13.2.1+cuda
+    modules:
+    - openmpi/5.0.3-gcc13.2.1
+    extra_attributes:
+      environment:
+        prepend_path:
+          LD_LIBRARY_PATH: /opt/packages/cuda/v11.7.1/lib64
+  buildable: False
+cuda:
+  externals:
+  - spec: cuda@11.7.1 %gcc@13.2.1
+    modules:
+    - cuda/11.7.1
+  buildable: False
+
+#check if syntax of .yaml files is correct
+spack audit configs
+
+#-I shows install status of packages
+spack spec -I seissol%gcc@13.2.1 gemm_tools_list=LIBXSMM ^easi~python
+
+#quite heavy compilation -> might be killed by slurm on login nodes -> try again until success
+spack install -v seissol%gcc@13.2.1 gemm_tools_list=LIBXSMM ^easi~python
