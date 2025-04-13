@@ -20,5 +20,7 @@ Date 25.3.2025
 There are reservations `scc-gpu` and `scc-cpu` in Mahti (`sbatch --reservation=scc ...`)
 
 
-## Homework
+## Additional material
+
+Paraview video tutorial for SeisSol: https://kannu.csc.fi/s/tTTx2Pmja4DL3YR
 
