@@ -74,3 +74,4 @@ Create a run script and execute the following:
 ## General tips
 
 - We have a 4-node reservation called `scc-gpu` on partition `gpumedium`
+- Example Mahti batch job scripts in csc docs: https://docs.csc.fi/computing/running/example-job-scripts-mahti/
