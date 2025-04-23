@@ -11,9 +11,9 @@ Date 23.4.2025
 |13:00|Discussion on previous topics|
 |13:15|Basics of benchmarking|
 |13.45|Installing and running HPL and HPCG|
-|14:30|Coffee break|
-|14:45|IO500|
-|15:00|Installing and running IO500|
+|14:30|IO500 lecture|
+|15:00|Coffee break|
+|15:15|Installing and running IO500|
 |16:00|Training concluded|
 
 ## Exercise instructions:
