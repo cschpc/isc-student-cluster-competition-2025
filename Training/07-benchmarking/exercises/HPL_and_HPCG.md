@@ -42,8 +42,10 @@ Create a run script and try the following tasks:
     - 1 GPU
     - 1 MPI task
     - 1 CPU core per task
+    - Include the `--no-multinode` command at the end
 - Try increasing the amount of cores to 32
 - Increase the number of GPUs to the maximum per node in Mahti 
+    - You are going to run into an issue with MPI/PMIx that results in the job hanging. Try to google the warning/error message that you get to figure out a fix.
     - Remember to also increase the values for **P**, **Q**, and **N** accordingly 
 - Run HPL on two full GPU nodes
 - Document the results 
@@ -64,6 +66,7 @@ Create a run script and execute the following:
     - 1 CPU core per task
 - Try increasing the amount of cores to 32
 - Increase the number of GPUs to the maximum per node in Mahti
+    - You might run into an issue with MPI/PMIx that results in the job hanging. Try to google the warning/error message that you get to figure out a fix.
 - Run HPCG on two full GPU nodes
 - Document the results 
 - Estimate the **best performance** you might expect from these GPUs and compare it to your results
