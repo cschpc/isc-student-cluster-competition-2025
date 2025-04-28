@@ -24,7 +24,8 @@ This repository contains the training materials and other relevant documents for
 |5.3.|Application 3 (Code_Saturne and MPI)|[Link](Training/05-code_saturne-mpi)|
 |25.3.|Coding challenge (ICON)|[Link](Training/06-coding-challenge)|
 |Early April - May|Virtual competition||
-|23.4.|Microbenchmarks|Link|
+|23.4.|Benchmarking: HPL, HPCG and IO500|[Link](Training/07-benchmarking/)|
+|29.4.|The LLM benchmark & AI|[Link](Training/08-LLAMA)|
 |Date TBD|Mystery application|Link|
 |Date TBD||System administration|Link|
 
