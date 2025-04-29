@@ -17,7 +17,7 @@ Date 29.4.2025
 
 Find instructions for installing on Mahti at: https://github.com/shanshanwangcsc/isc25_llm/tree/run_on_mahti
 
-Note that there is a reservation `scc-gpu` in Mahti (`sbatch --reservation=scc ...`) on partition `gpumedium`
+Note that there is a reservation `scc-gpu` in Mahti (`sbatch --reservation=scc-gpu ...`) on partition `gpumedium` and `gpusmall`
 
 
 
