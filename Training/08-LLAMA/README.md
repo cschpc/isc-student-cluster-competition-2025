@@ -19,5 +19,7 @@ Find instructions for installing on Mahti at: https://github.com/shanshanwangcsc
 
 Note that there is a reservation `scc-gpu` in Mahti (`sbatch --reservation=scc-gpu ...`) on partition `gpumedium` and `gpusmall`
 
+CSC Docs page on Fine tuning LLM's: https://docs.csc.fi/support/tutorials/ml-llm/
+
 
 
