@@ -21,5 +21,8 @@ Note that there is a reservation `scc-gpu` in Mahti (`sbatch --reservation=scc-g
 
 CSC Docs page on Fine tuning LLM's: https://docs.csc.fi/support/tutorials/ml-llm/
 
+For any specific AI/LLM themed questions you can contact the instructors through email:  
+Shanshan Wang: shanshan.wang@csc.fi  
+Mats Sjöberg: mats.sjoberg@csc.fi
 
 
