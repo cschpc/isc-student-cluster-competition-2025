@@ -25,8 +25,13 @@ Install and run the following applications:
 
 - HPL
 - HPCG
-- OpenMX
+- Code Saturne
+
+And if time permits, try to install and run the other applications:
+
 - SeisSol
+- OpenMX
+- LLaMA
 
 Discuss on how you will divide the work in advance. Make sure to communicate when you will be running your benchmarks, so that your jobs won't compete for the same resources.
 

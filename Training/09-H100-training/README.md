@@ -1,8 +1,6 @@
-# SCC Training 09 - System administration training (at CSC)
+# SCC Training 09 - H100 GPU testing and benchmarking (at CSC)
 
 Date 14.5.2025  
-
-[Slides]()
 
 ## Agenda
 
@@ -17,3 +15,4 @@ Date 14.5.2025
 
 ## Exercise instructions:
 
+[./vast_cluster.md](./vast_cluster.md)
