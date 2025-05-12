@@ -9,15 +9,11 @@ Date 14.5.2025
 |Time|Topic|
 |---|---|
 |13:00|Discussion on previous topics|
-|13:15|Cybersecurity best practices|
-|13.45|Aspects of filesystems|
+|13:15|Vast AI Cluster hardware|
+|13.30|Running benchmarks on the cluster|
 |14:30|Coffee break|
-|14:45|Slurm and coordination practices (GnuScreen, Slurm configs)|
-|15:15|Working on the cluster|
+|14:45|Installing and running competition applications|
 |16:00|Training concluded|
 
 ## Exercise instructions:
-
-
-
 
