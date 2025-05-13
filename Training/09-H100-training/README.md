@@ -16,3 +16,9 @@ Date 14.5.2025
 ## Exercise instructions:
 
 [./vast_cluster.md](./vast_cluster.md)
+
+## Notes
+
+- Cluster should be available between 21.5. - 26.5.
+- Software stack will be minimal
+
