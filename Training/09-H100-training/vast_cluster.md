@@ -19,6 +19,12 @@ The advisors have installed some minimal requirements on the system as root, inc
 
 ## Your task
 
+Access it with the command:
+
+```
+ssh -p 11449 <your-first-name>@149.7.4.3
+```
+
 Choose 1-2 system administrators that will be given root access. Any system-wide installations should happen through them.
 
 Install and run the following applications:
