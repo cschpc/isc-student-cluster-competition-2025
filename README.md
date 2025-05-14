@@ -26,7 +26,7 @@ This repository contains the training materials and other relevant documents for
 |Early April - May|Virtual competition||
 |23.4.|Benchmarking: HPL, HPCG and IO500|[Link](Training/07-benchmarking/)|
 |29.4.|The LLM benchmark & AI|[Link](Training/08-LLAMA)|
-|14.5.|Training with H100 GPUs|[Link](Training/09-H100-testing)|
+|14.5.|Training with H100 GPUs|[Link](Training/09-H100-training)|
 |21.5.|System Administration continued||
 |Date TBD|Mystery application||
 
