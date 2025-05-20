@@ -27,7 +27,7 @@ This repository contains the training materials and other relevant documents for
 |23.4.|Benchmarking: HPL, HPCG and IO500|[Link](Training/07-benchmarking/)|
 |29.4.|The LLM benchmark & AI|[Link](Training/08-LLAMA)|
 |14.5.|Training with H100 GPUs|[Link](Training/09-H100-training)|
-|21.5.|System Administration continued||
+|21.5.|System Administration|[Link](Training/10-sysadmin)|
 |Date TBD|Mystery application||
 
 ## Official ISC Student cluster competition links
