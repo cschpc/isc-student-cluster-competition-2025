@@ -1,7 +1,7 @@
 # SCC Training 10 - System Administration (at CSC)
 
 Date 21.5.2025  
-Slides: https://kannu.csc.fi/s/27SZGA5xPCz5Ff2
+Slides: [https://kannu.csc.fi/s/27SZGA5xPCz5Ff2](https://kannu.csc.fi/s/qgR2a8YXEx6MP9w)
 
 ## Agenda
 
