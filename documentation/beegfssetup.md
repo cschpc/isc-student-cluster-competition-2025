@@ -157,6 +157,27 @@ Writing UUID to config file...
 All done.
 ```
 
+To set up multiple storage devices on the same node, use the same `-s <server-ID>` parameter,
+but a different `-i <device-ID>`!
+
+From the [documentation](https://doc.beegfs.io/latest/quick_start_guide/quick_start_guide.html):
+
+> The storage service needs to know where it can store its data and how to reach the
+> management server. Typically, you will have multiple storage services running on different
+> machines and/or multiple storage targets (e.g., multiple RAID volumes) per storage service.
+
+> Optionally, you can also define a custom numeric storage service ID and numeric storage
+> target ID (both in range 1..65535). As this service is running on a server with name node03
+> in our example, we will pick number 3 as ID for this storage service and we will use 301
+> as storage target ID to show that this is the first target (01) of storage service 3.
+
+> ```txt
+> $ ssh root@node03
+> # /opt/beegfs/sbin/beegfs-setup-storage -p /mnt/myraid1/beegfs_storage -s 3 -i 301 -m node01
+> 
+> # /opt/beegfs/sbin/beegfs-setup-storage -p /mnt/myraid2/beegfs_storage -s 3 -i 302
+> ```
+
 ```
 [root@chip beegfs]# /opt/beegfs/sbin/beegfs-setup-storage -p /beerawstorage -s 2 -i 301 -m chip
 Preparing storage target directory: /beerawstorage
@@ -225,6 +246,9 @@ Now everything should be ready to be starting chip:
 # systemctl start beegfs-storage
 ```
 
+If you see errors related to the `/etc/beegfs/conn.auth` file, please
+double-check the `auth-disable = true` configuration.
+
 start storage in dale:
 
 ```
@@ -272,9 +296,26 @@ s:3   storage     node_storage_3
 mg:1  management  management
 ```
 
+Prepare for client installation by installing `dnf install kernel-devel`
+
 start client in chip and dale:
 
 # systemctl start beegfs-client
+
+If you see errors like:
+```
+systemd[1]: Starting Start BeeGFS Client...
+beegfs-client[1341]: Starting BeeGFS Client:
+beegfs-client[1341]: - Loading BeeGFS modules
+beegfs-client[1341]: - Mounting directories from /etc/beegfs/beegfs-mounts.conf
+beegfs-client[1367]: + mount --internal -t beegfs --source beegfs_nodev --target /mnt/beegfs -orw,nosuid,cfgFile=/etc/beegf>
+beegfs-client[1387]: mount: /mnt/beegfs: mount(2) system call failed: Operation canceled.
+systemd[1]: beegfs-client.service: Main process exited, code=exited, status=32/n/a
+systemd[1]: beegfs-client.service: Failed with result 'exit-code'.
+systemd[1]: Failed to start Start BeeGFS Client.
+```
+
+Then double-check that the authentication is disabled in `/etc/beegfs/beegfs-client.conf`!
 
 now the /mnt/beegfs should contain mounted shared filesystem on both nodes
 
