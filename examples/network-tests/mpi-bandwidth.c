@@ -35,6 +35,9 @@ int main(int argc, char** argv)
         t1 = MPI_Wtime();
         double bw = 5*2 / (t1 - t0);
         printf("Rank: %d  %f (MB/s) \n", rank, bw); 
+
+        free(send_buf);
+        free(recv_buf);
 	
 	MPI_Finalize();
 }
