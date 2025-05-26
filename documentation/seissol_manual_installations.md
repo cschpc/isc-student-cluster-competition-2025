@@ -40,9 +40,9 @@ pip wheel . -w ..
 cd ..
 ```
 
-## Prepare your setup:
+## Prepare your setup (on the competition cluster):
 
-Activate the module system and load the following modules:
+Go to the competition cluster, activate the module system there and load the following modules:
 
 ```
 init-modules
