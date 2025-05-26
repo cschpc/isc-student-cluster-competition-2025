@@ -110,47 +110,6 @@ pip install --no-index --find-links $SEISSOL_BASE chainforge
 
 Then let's go to where all the dependencies are downloaded and let's install them one by one into the `$SEISSOL_PREFIX` directory:
 
-### Curl
-
-```
-cd $SEISSOL_BASE
-tar -xf curl-8.4.0.tar.gz 
-cd curl-8.4.0/
-./configure \
-  --build="$(uname -m)-pc-linux-gnu" \
-  --prefix=$SEISSOL_PREFIX \
-  --with-ssl \
-  --with-zlib \
-  --disable-static \
-  --enable-threaded-resolver
-make -j8
-make install
-cd ..
-```
-
-### NetCDF-C
-
-```
-cd $SEISSOL_BASE/netcdf-c
-mkdir build; cd build
-cmake .. -DCMAKE_INSTALL_PREFIX=$SEISSOL_PREFIX -DNETCDF_ENABLE_PARALLEL_TESTS=ON -DNETCDF_ENABLE_TESTS=OFF
-make -j8
-make install
-```
-
-### Eigen
-
-```
-cd $SEISSOL_BASE
-tar -xf eigen-3.4.0.tar.gz
-cd eigen-3.4.0
-mkdir build && cd build
-cmake .. -DCMAKE_INSTALL_PREFIX=$SEISSOL_PREFIX
-make -j8
-make install
-cd ../..
-```
-
 ### ParMetis
 
 ```
@@ -166,31 +125,6 @@ cp metis/include/metis.h $SEISSOL_PREFIX/include
 cd ..
 ```
 
-### YAML-CPP
-
-```
-cd $SEISSOL_BASE
-tar -xf 0.8.0.tar.gz
-mkdir -p yaml-cpp-0.8.0/build
-cd yaml-cpp-0.8.0/build
-cmake .. -DCMAKE_INSTALL_PREFIX=$SEISSOL_PREFIX -DCMAKE_BUILD_TYPE=Release
-make -j8
-make install
-cd ../..
-```
-
-### ASAGI
-
-```
-cd $SEISSOL_BASE
-mkdir -p ASAGI/build
-cd ASAGI/build
-cmake .. -DCMAKE_INSTALL_PREFIX=$SEISSOL_PREFIX -DCMAKE_BUILD_TYPE=Release
-make -j8
-make install
-cd ../..
-```
-
 ### Lua
 
 ```
@@ -199,20 +133,6 @@ tar -xf lua-5.4.6.tar.gz
 cd lua-5.4.6
 make all install INSTALL_TOP=$SEISSOL_PREFIX
 cd ..
-```
-
-### easi
-
-*Note! I disable ASAGI here and during Seissol installation because of compilation time errors*
-
-```
-cd $SEISSOL_BASE
-mkdir -p easi/build
-cd easi/build
-cmake .. -DCMAKE_INSTALL_PREFIX=$SEISSOL_PREFIX -DCMAKE_BUILD_TYPE=Release -DASAGI=OFF -DLUA=ON -DIMPALAJIT=OFF -DEASICUBE=OFF
-make -j8
-make install
-cd ../..
 ```
 
 ## Compiling SeisSol
@@ -250,7 +170,7 @@ And then go into the build folder and run cmake:
 
 ```
 cd $SEISSOL_BASE/SeisSol/build
-cmake -DNUMA_AWARE_PINNING=ON -DCMAKE_BUILD_TYPE=Release -DASAGI=OFF -DPRECISION=double -DORDER=4 -DEQUATIONS=elastic -DGEMM_TOOLS_LIST=Eigen -DCMAKE_INSTALL_PREFIX=$SEISSOL_PREFIX -DDEVICE_BACKEND=cuda -DDEVICE_ARCH=sm_80 -DNUMA_AWARE_PINNING=ON ..
+cmake -DNUMA_AWARE_PINNING=ON -DCMAKE_BUILD_TYPE=Release -DASAGI=OFF -DPRECISION=double -DORDER=4 -DEQUATIONS=elastic -DGEMM_TOOLS_LIST=GemmForge -DCMAKE_INSTALL_PREFIX=$SEISSOL_PREFIX -DDEVICE_BACKEND=cuda -DDEVICE_ARCH=sm_80 -DNUMA_AWARE_PINNING=ON ..
 ```
 
 And then `make` and `make install`
