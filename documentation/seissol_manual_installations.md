@@ -290,4 +290,4 @@ srun --cpu-bind=none bash -c \
    exec SeisSol_Release_dsm_80_cuda_4_elastic parameters.par'
 ```
 
-Initialization phase with GPUs can easily take up to 20 minutes. Runtime with two H100s is about 15 minutes after this based on my testing.
+Initialization phase with GPUs can easily take up to 20 minutes on the Turkey dataset. Runtime with two H100s is about 15 minutes after this based on my testing.
