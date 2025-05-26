@@ -264,3 +264,30 @@ cmake -DNUMA_AWARE_PINNING=ON -DCMAKE_BUILD_TYPE=Release -DASAGI=OFF -DPRECISION
 (Try changing the -DGEMM_TOOLS_LIST argument if you want to try something other than Eigen)
 
 And after it passes, run `make` and `make install`
+
+# Running SeisSol on the cluster
+
+For SeisSol, you need to assign specific GPUs for your different MPI ranks during runtime. 
+
+Example slurm job script on how this can be achieved:
+
+```
+#!/bin/bash
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=2
+#SBATCH --cpus-per-task=16
+
+export SEISSOL_COMMTHREAD=0
+export OMP_NUM_THREADS=16
+
+export DEVICE_STACK_MEM_SIZE=2
+ulimit -Ss 2097152 # Increase per-thread memory limit to 2GB based on SeisSol's suggestion
+
+#srun SeisSol_Release_dsm_80_cuda_4_elastic parameters.par
+srun --cpu-bind=none bash -c \
+  'export CUDA_VISIBLE_DEVICES=$SLURM_LOCALID; \
+   echo "[$(hostname)] local rank $SLURM_LOCALID → GPU $CUDA_VISIBLE_DEVICES"; \
+   exec SeisSol_Release_dsm_80_cuda_4_elastic parameters.par'
+```
+
+Initialization phase with GPUs can easily take up to 20 minutes. Runtime with two H100s is about 15 minutes after this based on my testing.
