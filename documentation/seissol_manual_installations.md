@@ -62,7 +62,7 @@ source venv/bin/activate
 Specify where you will stash your library source files, and where you will keep your installations e.g.:
 
 ```
-export SEISSOL_PREFIX=$HOME/$seissol_install
+export SEISSOL_PREFIX=$HOME/seissol_install
 export SEISSOL_BASE=$HOME/seissol_base
 mkdir -p $SEISSOL_BASE
 mkdir -p $SEISSOL_PREFIX
@@ -222,29 +222,35 @@ cd ../..
 Go into the SeisSol folder and create a build directory:
 
 ```
-cd $SEISSOL_BASE/SeisSol; mkdir -p build; cd build
+cd $SEISSOL_BASE/SeisSol; mkdir -p build
 ```
 
 Create the makefile through CMake:
 
 ### For GPUs:
 
-Change a line in the `submodules/Device.cuda.cmake` file:
+Change a line in the `SeisSol/submodules/Device/cuda.cmake` file:
 
 ```
-sed -i '\|target_link_libraries(device PUBLIC CUDA::cudart CUDA::cuda_driver CUDA::nvToolsExt)|{\
-s|.*|target_link_libraries(device PUBLIC CUDA::cudart CUDA::cuda_driver)|;\
-a\
+cd $SEISSOL_BASE/SeisSol
+sed -i \
+  's|target_link_libraries(device PUBLIC CUDA::cudart CUDA::cuda_driver CUDA::nvToolsExt)|\
+target_link_libraries(device PUBLIC CUDA::cudart CUDA::cuda_driver)|' \
+  submodules/Device/cuda.cmake
+
+sed -i \
+  '/target_link_libraries(device PUBLIC CUDA::cudart CUDA::cuda_driver)/a\
 if(TARGET CUDA::nvToolsExt)\
   target_link_libraries(device PUBLIC CUDA::nvToolsExt)\
-endif()\
-}' submodules/Device/cuda.cmake
+endif()' \
+  submodules/Device/cuda.cmake
 ```
 
-And then run cmake:
+And then go into the build folder and run cmake:
 
 ```
-cmake -DNUMA_AWARE_PINNING=ON -DCMAKE_BUILD_TYPE=Release -DASAGI=OFF -DPRECISION=double -DHOST_ARCH= -DORDER=4 -DEQUATIONS=elastic -DGEMM_TOOLS_LIST=Eigen -DCMAKE_INSTALL_PREFIX=$SEISSOL_PREFIX -DDEVICE_BACKEND=cuda -DDEVICE_ARCH=sm_80 -DNUMA_AWARE_PINNING=ON ..
+cd $SEISSOL_BASE/SeisSol/build
+cmake -DNUMA_AWARE_PINNING=ON -DCMAKE_BUILD_TYPE=Release -DASAGI=OFF -DPRECISION=double -DORDER=4 -DEQUATIONS=elastic -DGEMM_TOOLS_LIST=Eigen -DCMAKE_INSTALL_PREFIX=$SEISSOL_PREFIX -DDEVICE_BACKEND=cuda -DDEVICE_ARCH=sm_80 -DNUMA_AWARE_PINNING=ON ..
 ```
 
 And then `make` and `make install`
