@@ -49,6 +49,7 @@ init-modules
 module load gcc
 module load openmpi
 module load hdf5 openblas cmake
+module load netcdf-c eigen easi asagi yaml-cpp
 ```
 
 Create a Python virtual environment and activate it (in this example we create the venv at $HOME):
@@ -130,8 +131,20 @@ cd ..
 ```
 cd $SEISSOL_BASE
 tar -xf lua-5.4.6.tar.gz
-cd lua-5.4.6
-make all install INSTALL_TOP=$SEISSOL_PREFIX
+cd lua-5.4.6/src
+make clean
+gcc -O2 -fPIC -c \
+  lapi.c lcode.c lctype.c ldebug.c ldo.c ldump.c lfunc.c lgc.c llex.c \
+  lmem.c lobject.c lopcodes.c lparser.c lstate.c lstring.c ltable.c \
+  ltm.c lundump.c lvm.c lzio.c lauxlib.c lbaselib.c lcorolib.c ldblib.c \
+  liolib.c lmathlib.c loadlib.c loslib.c lstrlib.c ltablib.c lutf8lib.c \
+  linit.c
+gcc -shared -Wl,-soname,liblua.so.5.3 -o liblua.so.5.3 *.o -ldl -lm
+install -d $SEISSOL_PREFIX/lib
+install -m 0644 liblua.so.5.3 $SEISSOL_PREFIX/lib/
+cd $SEISSOL_PREFIX/lib
+ln -sf liblua.so.5.3 liblua.so
+
 cd ..
 ```
 
