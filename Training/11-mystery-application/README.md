@@ -1,3 +1,19 @@
+# SCC Training 11 - Practicalities and mystery application (at CSC)
+
+Date 5.6.2025  
+Slides: [https://kannu.csc.fi/s/cCdRYPo5q23qa2a](https://kannu.csc.fi/s/cCdRYPo5q23qa2a)
+
+## Agenda
+
+|Time|Topic|
+|---|---|
+|15:30|Discussion on previous topics|
+|15:45|Practicalities|
+|16:15|Mystery application|
+|18:00|Training concluded|
+
+Mystery application:
+
 ## Step-by-Step: Set Up Qiskit + JupyterLab in a Virtual Environment
 
 ### 1. Create and activate the virtual environment
