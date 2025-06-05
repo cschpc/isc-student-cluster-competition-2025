@@ -28,7 +28,7 @@ This repository contains the training materials and other relevant documents for
 |29.4.|The LLM benchmark & AI|[Link](Training/08-LLAMA)|
 |14.5.|Training with H100 GPUs|[Link](Training/09-H100-training)|
 |21.5.|System Administration|[Link](Training/10-sysadmin)|
-|Date TBD|Mystery application||
+|6.5.|Mystery application & practicalities|[Link](Training/11-mysteryapplication)|
 
 ## Official ISC Student cluster competition links
 
