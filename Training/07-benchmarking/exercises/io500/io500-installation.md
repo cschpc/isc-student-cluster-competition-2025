@@ -18,7 +18,7 @@
 
 First clone the repository:
 
-    git clone https://github.com/IO500/io500.git -b io500-isc24
+    git clone https://github.com/IO500/io500.git -b io500-isc25
 
 Load openmpi
 
