@@ -1,0 +1,12 @@
+Here are your final scores for the in-person competition
+Total ranking #6, which is not too bad consider the team participate first time.
+HPL ranking is #7, best score was 340K GFlops
+HPCG ranking is #6 with 5.07 points
+IO500 7 points (#5)
+LLM: 11.66 points #4
+SeisSol: 2.2 points (#6), first one got much better results 340 seconds on the elapsed time.
+code_saturne 1.5 points (#7), again first one got much better results 443 seconds on the elapsed time
+OpenMX 4 points (#7)
+LAMMPS 2 points, you changed the problem size there, we couldn't use the time you sent.
+Interview 4.25 points
+total points 37.76 (total ranking #6)
